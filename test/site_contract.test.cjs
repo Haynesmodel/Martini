@@ -7,8 +7,9 @@ test('blocked canonical data cannot render record tables and candidates stay ext
   assert.deepEqual(JSON.parse(fs.readFileSync(path.join(root, 'assets/H2H.json'))), []);
   assert.deepEqual(JSON.parse(fs.readFileSync(path.join(root, 'assets/SeasonSummary.json'))), []);
   const source = fs.readFileSync(path.join(root, 'src/main.tsx'), 'utf8');
-  assert.match(source, /historyReady = games\.length > 0 && summaries\.length > 0/);
+  assert.match(source, /loadHistory\(import\.meta\.env\.BASE_URL\)/);
   assert.match(source, /history-blocked/);
+  assert.match(source, /history-error/);
   assert.doesNotMatch(source, /martini-source\.png/);
   assert.match(source, /srcSet=/);
 });

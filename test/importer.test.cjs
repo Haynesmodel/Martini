@@ -42,4 +42,11 @@ test('self-matchup, duplicate matchup, duplicate franchise-season, and ambiguous
   const duplicateFranchise = validPayload(); duplicateFranchise.teams[1].id = '1'; assert.match(run(duplicateFranchise, { dir, mapping }).stderr, /duplicate ESPN team ID|duplicate franchise-season/);
   const ambiguousMapping = mappingFile(dir, true); const ambiguous = validPayload(); ambiguous.teams[0].id = 'unknown'; ambiguous.teams[0].name = 'Unknown'; ambiguous.teams[0].managers = ['Manager a']; assert.match(run(ambiguous, { dir, mapping: ambiguousMapping }).stderr, /ambiguous/);
 });
-test('explicit promotion is supported only for a reviewed normalized candidate', () => { const dir = fixtureDir(); const outputDir = path.join(dir, 'assets'); const result = run(validPayload(), { dir, mapping: mappingFile(dir), promote: true, outputDir }); assert.equal(result.status, 0, result.stderr); assert.equal(JSON.parse(fs.readFileSync(path.join(outputDir, 'H2H.json'))).length, 1); });
+test('reviewed promotion survives generation and asset validation in isolation', () => {
+  const project = fixtureDir(); fs.cpSync(path.join(root, 'assets'), path.join(project, 'assets'), { recursive: true }); fs.mkdirSync(path.join(project, 'scripts'));
+  fs.copyFileSync(path.join(root, 'scripts/generate_data.cjs'), path.join(project, 'scripts/generate_data.cjs'));
+  const mapping = mappingFile(project); fs.copyFileSync(mapping, path.join(project, 'scripts/martini_season_mapping.json'));
+  const promoted = run(validPayload(), { dir: project, mapping, promote: true, outputDir: path.join(project, 'assets') }); assert.equal(promoted.status, 0, promoted.stderr);
+  const generated = spawnSync('node', ['scripts/generate_data.cjs'], { cwd: root, env: { ...process.env, MARTINI_PROJECT_ROOT: project }, encoding: 'utf8' }); assert.equal(generated.status, 0, generated.stderr);
+  const checked = spawnSync('node', ['scripts/validate_assets.cjs', project], { cwd: root, encoding: 'utf8' }); assert.equal(checked.status, 0, checked.stderr); assert.match(checked.stdout, /promoted/);
+});
