@@ -1,1 +1,542 @@
-[]
+[
+  {
+    "season": 2021,
+    "owner": "franchise-roell-alex",
+    "wins": 3,
+    "losses": 11,
+    "ties": 0,
+    "finish": 10,
+    "points_for": 1389.02
+  },
+  {
+    "season": 2021,
+    "owner": "franchise-harrison",
+    "wins": 10,
+    "losses": 4,
+    "ties": 0,
+    "finish": 3,
+    "points_for": 1749.2
+  },
+  {
+    "season": 2021,
+    "owner": "franchise-natini",
+    "wins": 12,
+    "losses": 2,
+    "ties": 0,
+    "finish": 4,
+    "points_for": 1877.86
+  },
+  {
+    "season": 2021,
+    "owner": "franchise-joelia",
+    "wins": 5,
+    "losses": 9,
+    "ties": 0,
+    "finish": 9,
+    "points_for": 1539.54
+  },
+  {
+    "season": 2021,
+    "owner": "franchise-best-martini",
+    "wins": 7,
+    "losses": 7,
+    "ties": 0,
+    "finish": 5,
+    "points_for": 1594.42
+  },
+  {
+    "season": 2021,
+    "owner": "franchise-on-the-rocks",
+    "wins": 5,
+    "losses": 9,
+    "ties": 0,
+    "finish": 8,
+    "points_for": 1589.08
+  },
+  {
+    "season": 2021,
+    "owner": "franchise-bonomini",
+    "wins": 5,
+    "losses": 9,
+    "ties": 0,
+    "finish": 11,
+    "points_for": 1462.38
+  },
+  {
+    "season": 2021,
+    "owner": "franchise-westbrook",
+    "wins": 8,
+    "losses": 6,
+    "ties": 0,
+    "finish": 6,
+    "points_for": 1554.18
+  },
+  {
+    "season": 2021,
+    "owner": "franchise-jtd",
+    "wins": 5,
+    "losses": 9,
+    "ties": 0,
+    "finish": 12,
+    "points_for": 1296.22
+  },
+  {
+    "season": 2021,
+    "owner": "franchise-goat",
+    "wins": 10,
+    "losses": 4,
+    "ties": 0,
+    "finish": 1,
+    "points_for": 1770.96
+  },
+  {
+    "season": 2021,
+    "owner": "franchise-clifton",
+    "wins": 7,
+    "losses": 7,
+    "ties": 0,
+    "finish": 7,
+    "points_for": 1569.92
+  },
+  {
+    "season": 2021,
+    "owner": "franchise-maleahs",
+    "wins": 7,
+    "losses": 7,
+    "ties": 0,
+    "finish": 2,
+    "points_for": 1706.86
+  },
+  {
+    "season": 2022,
+    "owner": "franchise-roell-alex",
+    "wins": 7,
+    "losses": 7,
+    "ties": 0,
+    "finish": 12,
+    "points_for": 1513.54
+  },
+  {
+    "season": 2022,
+    "owner": "franchise-harrison",
+    "wins": 6,
+    "losses": 8,
+    "ties": 0,
+    "finish": 9,
+    "points_for": 1489.64
+  },
+  {
+    "season": 2022,
+    "owner": "franchise-natini",
+    "wins": 6,
+    "losses": 8,
+    "ties": 0,
+    "finish": 8,
+    "points_for": 1519.58
+  },
+  {
+    "season": 2022,
+    "owner": "franchise-joelia",
+    "wins": 9,
+    "losses": 5,
+    "ties": 0,
+    "finish": 3,
+    "points_for": 1550.64
+  },
+  {
+    "season": 2022,
+    "owner": "franchise-best-martini",
+    "wins": 10,
+    "losses": 4,
+    "ties": 0,
+    "finish": 4,
+    "points_for": 1682.92
+  },
+  {
+    "season": 2022,
+    "owner": "franchise-on-the-rocks",
+    "wins": 8,
+    "losses": 6,
+    "ties": 0,
+    "finish": 5,
+    "points_for": 1637.5
+  },
+  {
+    "season": 2022,
+    "owner": "franchise-bonomini",
+    "wins": 5,
+    "losses": 9,
+    "ties": 0,
+    "finish": 7,
+    "points_for": 1512.84
+  },
+  {
+    "season": 2022,
+    "owner": "franchise-westbrook",
+    "wins": 7,
+    "losses": 7,
+    "ties": 0,
+    "finish": 6,
+    "points_for": 1578.48
+  },
+  {
+    "season": 2022,
+    "owner": "franchise-jtd",
+    "wins": 3,
+    "losses": 11,
+    "ties": 0,
+    "finish": 11,
+    "points_for": 1169.98
+  },
+  {
+    "season": 2022,
+    "owner": "franchise-goat",
+    "wins": 7,
+    "losses": 7,
+    "ties": 0,
+    "finish": 10,
+    "points_for": 1488.28
+  },
+  {
+    "season": 2022,
+    "owner": "franchise-clifton",
+    "wins": 7,
+    "losses": 7,
+    "ties": 0,
+    "finish": 1,
+    "points_for": 1635.86
+  },
+  {
+    "season": 2022,
+    "owner": "franchise-maleahs",
+    "wins": 9,
+    "losses": 5,
+    "ties": 0,
+    "finish": 2,
+    "points_for": 1724.06
+  },
+  {
+    "season": 2023,
+    "owner": "franchise-roell-alex",
+    "wins": 6,
+    "losses": 8,
+    "ties": 0,
+    "finish": 10,
+    "points_for": 1587.48
+  },
+  {
+    "season": 2023,
+    "owner": "franchise-harrison",
+    "wins": 3,
+    "losses": 11,
+    "ties": 0,
+    "finish": 12,
+    "points_for": 1563.7
+  },
+  {
+    "season": 2023,
+    "owner": "franchise-natini",
+    "wins": 8,
+    "losses": 6,
+    "ties": 0,
+    "finish": 6,
+    "points_for": 1591.84
+  },
+  {
+    "season": 2023,
+    "owner": "franchise-joelia",
+    "wins": 8,
+    "losses": 6,
+    "ties": 0,
+    "finish": 2,
+    "points_for": 1613.14
+  },
+  {
+    "season": 2023,
+    "owner": "franchise-best-martini",
+    "wins": 12,
+    "losses": 2,
+    "ties": 0,
+    "finish": 4,
+    "points_for": 1685.12
+  },
+  {
+    "season": 2023,
+    "owner": "franchise-on-the-rocks",
+    "wins": 8,
+    "losses": 6,
+    "ties": 0,
+    "finish": 3,
+    "points_for": 1602.38
+  },
+  {
+    "season": 2023,
+    "owner": "franchise-bonomini",
+    "wins": 7,
+    "losses": 7,
+    "ties": 0,
+    "finish": 7,
+    "points_for": 1579.54
+  },
+  {
+    "season": 2023,
+    "owner": "franchise-westbrook",
+    "wins": 7,
+    "losses": 7,
+    "ties": 0,
+    "finish": 8,
+    "points_for": 1410.3
+  },
+  {
+    "season": 2023,
+    "owner": "franchise-jtd",
+    "wins": 5,
+    "losses": 9,
+    "ties": 0,
+    "finish": 9,
+    "points_for": 1542.78
+  },
+  {
+    "season": 2023,
+    "owner": "franchise-goat",
+    "wins": 9,
+    "losses": 5,
+    "ties": 0,
+    "finish": 1,
+    "points_for": 1668.16
+  },
+  {
+    "season": 2023,
+    "owner": "franchise-clifton",
+    "wins": 3,
+    "losses": 11,
+    "ties": 0,
+    "finish": 11,
+    "points_for": 1484.82
+  },
+  {
+    "season": 2023,
+    "owner": "franchise-maleahs",
+    "wins": 8,
+    "losses": 6,
+    "ties": 0,
+    "finish": 5,
+    "points_for": 1624.78
+  },
+  {
+    "season": 2024,
+    "owner": "franchise-roell-alex",
+    "wins": 5,
+    "losses": 9,
+    "ties": 0,
+    "finish": 11,
+    "points_for": 1427.48
+  },
+  {
+    "season": 2024,
+    "owner": "franchise-harrison",
+    "wins": 7,
+    "losses": 7,
+    "ties": 0,
+    "finish": 3,
+    "points_for": 1607.6
+  },
+  {
+    "season": 2024,
+    "owner": "franchise-natini",
+    "wins": 8,
+    "losses": 6,
+    "ties": 0,
+    "finish": 6,
+    "points_for": 1698.46
+  },
+  {
+    "season": 2024,
+    "owner": "franchise-joelia",
+    "wins": 6,
+    "losses": 8,
+    "ties": 0,
+    "finish": 8,
+    "points_for": 1744.72
+  },
+  {
+    "season": 2024,
+    "owner": "franchise-best-martini",
+    "wins": 12,
+    "losses": 2,
+    "ties": 0,
+    "finish": 1,
+    "points_for": 1720.2
+  },
+  {
+    "season": 2024,
+    "owner": "franchise-on-the-rocks",
+    "wins": 5,
+    "losses": 9,
+    "ties": 0,
+    "finish": 9,
+    "points_for": 1263.04
+  },
+  {
+    "season": 2024,
+    "owner": "franchise-bonomini",
+    "wins": 9,
+    "losses": 5,
+    "ties": 0,
+    "finish": 2,
+    "points_for": 1705.16
+  },
+  {
+    "season": 2024,
+    "owner": "franchise-westbrook",
+    "wins": 5,
+    "losses": 9,
+    "ties": 0,
+    "finish": 10,
+    "points_for": 1441.18
+  },
+  {
+    "season": 2024,
+    "owner": "franchise-jtd",
+    "wins": 6,
+    "losses": 8,
+    "ties": 0,
+    "finish": 12,
+    "points_for": 1333.18
+  },
+  {
+    "season": 2024,
+    "owner": "franchise-goat",
+    "wins": 7,
+    "losses": 7,
+    "ties": 0,
+    "finish": 5,
+    "points_for": 1471.16
+  },
+  {
+    "season": 2024,
+    "owner": "franchise-clifton",
+    "wins": 8,
+    "losses": 6,
+    "ties": 0,
+    "finish": 4,
+    "points_for": 1371.7
+  },
+  {
+    "season": 2024,
+    "owner": "franchise-maleahs",
+    "wins": 6,
+    "losses": 8,
+    "ties": 0,
+    "finish": 7,
+    "points_for": 1442.88
+  },
+  {
+    "season": 2025,
+    "owner": "franchise-roell-alex",
+    "wins": 3,
+    "losses": 11,
+    "ties": 0,
+    "finish": 11,
+    "points_for": 1278.24
+  },
+  {
+    "season": 2025,
+    "owner": "franchise-harrison",
+    "wins": 7,
+    "losses": 7,
+    "ties": 0,
+    "finish": 8,
+    "points_for": 1459.88
+  },
+  {
+    "season": 2025,
+    "owner": "franchise-natini",
+    "wins": 8,
+    "losses": 6,
+    "ties": 0,
+    "finish": 5,
+    "points_for": 1554.92
+  },
+  {
+    "season": 2025,
+    "owner": "franchise-joelia",
+    "wins": 6,
+    "losses": 8,
+    "ties": 0,
+    "finish": 10,
+    "points_for": 1737.12
+  },
+  {
+    "season": 2025,
+    "owner": "franchise-best-martini",
+    "wins": 8,
+    "losses": 6,
+    "ties": 0,
+    "finish": 2,
+    "points_for": 1634.76
+  },
+  {
+    "season": 2025,
+    "owner": "franchise-on-the-rocks",
+    "wins": 6,
+    "losses": 8,
+    "ties": 0,
+    "finish": 9,
+    "points_for": 1333.66
+  },
+  {
+    "season": 2025,
+    "owner": "franchise-bonomini",
+    "wins": 10,
+    "losses": 4,
+    "ties": 0,
+    "finish": 4,
+    "points_for": 1766.72
+  },
+  {
+    "season": 2025,
+    "owner": "franchise-westbrook",
+    "wins": 10,
+    "losses": 4,
+    "ties": 0,
+    "finish": 3,
+    "points_for": 1783.36
+  },
+  {
+    "season": 2025,
+    "owner": "franchise-jtd",
+    "wins": 8,
+    "losses": 6,
+    "ties": 0,
+    "finish": 1,
+    "points_for": 1516.5
+  },
+  {
+    "season": 2025,
+    "owner": "franchise-goat",
+    "wins": 7,
+    "losses": 7,
+    "ties": 0,
+    "finish": 12,
+    "points_for": 1516.48
+  },
+  {
+    "season": 2025,
+    "owner": "franchise-clifton",
+    "wins": 4,
+    "losses": 10,
+    "ties": 0,
+    "finish": 7,
+    "points_for": 1335.0
+  },
+  {
+    "season": 2025,
+    "owner": "franchise-maleahs",
+    "wins": 7,
+    "losses": 7,
+    "ties": 0,
+    "finish": 6,
+    "points_for": 1627.4
+  }
+]

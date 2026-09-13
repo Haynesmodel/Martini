@@ -16,6 +16,16 @@ function mappingFile(dir, ambiguous = false) {
 function validPayload() {
   return { seasonId: 2025, teams: ['a', 'b', 'c', 'd'].map((key, index) => ({ id: String(index + 1), name: `Team ${key.toUpperCase()}`, managers: [`Manager ${key}`] })), matchups: [{ id: 'm1', week: 1, teamA: '1', teamB: '2', scoreA: 100, scoreB: 90 }], standings: ['a', 'b', 'c', 'd'].map((key, index) => ({ id: String(index + 1), wins: index, losses: 3 - index, ties: 0, finish: index + 1, pointsFor: 1000 + index })) };
 }
+function espnPayload() {
+  const source = validPayload();
+  const owners = source.teams.map((_, index) => `{owner-${index + 1}}`);
+  return {
+    seasonId: source.seasonId,
+    members: source.teams.map((team, index) => ({ id: owners[index], displayName: team.managers[0] })),
+    teams: source.teams.map((team, index) => ({ id: Number(team.id), name: team.name, owners: [owners[index]], points: 1000 + index, rankCalculatedFinal: index + 1, record: { overall: { wins: index, losses: 3 - index, ties: 0 } } })),
+    schedule: [{ id: 1, matchupPeriodId: 1, home: { teamId: 1, totalPoints: 100 }, away: { teamId: 2, totalPoints: 90 } }],
+  };
+}
 function run(payload, options = {}) {
   const dir = options.dir || fixtureDir(); const exportFile = path.join(dir, 'export.json'); fs.writeFileSync(exportFile, JSON.stringify(payload));
   const args = ['scripts/import_martini_espn.py', exportFile];
@@ -28,6 +38,10 @@ function run(payload, options = {}) {
 test('valid sanitized export creates a candidate with normalized teams, games, and summaries', () => {
   const dir = fixtureDir(); const mapping = mappingFile(dir); const candidate = path.join(dir, 'candidate.json'); const result = run(validPayload(), { dir, mapping, candidate });
   assert.equal(result.status, 0, result.stderr); const output = JSON.parse(fs.readFileSync(candidate)); assert.equal(output.status, 'candidate'); assert.equal(output.games[0].teamA, 'franchise-a'); assert.equal(output.summaries.length, 4); assert.ok(!fs.existsSync(path.join(root, 'assets', 'candidate.json')));
+});
+test('raw ESPN mTeam and mMatchupScore export is adapted before validation', () => {
+  const dir = fixtureDir(); const result = run(espnPayload(), { dir, mapping: mappingFile(dir) });
+  assert.equal(result.status, 0, result.stderr); assert.match(result.stdout, /franchise-a/);
 });
 
 test('candidate output is rejected inside canonical assets', () => { const dir = fixtureDir(); const result = run(validPayload(), { dir, mapping: mappingFile(dir), candidate: path.join(root, 'assets', 'candidate.json') }); assert.notEqual(result.status, 0); assert.match(result.stderr, /outside assets/); });
@@ -56,6 +70,7 @@ test('standings must contain exactly one row for every mapped team', () => {
 });
 test('reviewed promotion survives generation and asset validation in isolation', () => {
   const project = fixtureDir(); fs.cpSync(path.join(root, 'assets'), path.join(project, 'assets'), { recursive: true }); fs.mkdirSync(path.join(project, 'scripts'));
+  fs.writeFileSync(path.join(project, 'assets/H2H.json'), '[]\n'); fs.writeFileSync(path.join(project, 'assets/SeasonSummary.json'), '[]\n');
   fs.copyFileSync(path.join(root, 'scripts/generate_data.cjs'), path.join(project, 'scripts/generate_data.cjs'));
   const mapping = mappingFile(project); fs.copyFileSync(mapping, path.join(project, 'scripts/martini_season_mapping.json'));
   const promoted = run(validPayload(), { dir: project, mapping, promote: true, outputDir: path.join(project, 'assets') }); assert.equal(promoted.status, 0, promoted.stderr);
