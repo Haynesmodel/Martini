@@ -36,16 +36,16 @@ def managers(team: dict[str, Any]) -> list[str]:
         raise ValueError(f"team {team_id(team)} has an invalid manager list")
     return sorted({norm(item) for item in value if norm(item)})
 
-def franchise_index(mapping: dict[str, Any]) -> tuple[dict[str, list[str]], dict[str, str]]:
+def franchise_index(mapping: dict[str, Any]) -> tuple[dict[str, list[str]], dict[str, list[str]]]:
     by_id: dict[str, list[str]] = {}
-    by_name: dict[str, str] = {}
+    by_name: dict[str, list[str]] = {}
     keys = {item.get("key") for item in mapping.get("franchises", [])}
     for alias in mapping.get("team_aliases", []):
         key = alias.get("franchise_key")
         if key not in keys: raise ValueError(f"team alias references unknown franchise {key}")
         for source_id in alias.get("espn_team_ids", []): by_id.setdefault(str(source_id), []).append(key)
         for name in [alias.get("source_name"), *alias.get("source_names", [])]:
-            if name: by_name.setdefault(norm(name), key)
+            if name: by_name.setdefault(norm(name), []).append(key)
     return by_id, by_name
 
 def manager_matches(franchise: dict[str, Any], season: int, names: list[str]) -> bool:
@@ -55,14 +55,14 @@ def manager_matches(franchise: dict[str, Any], season: int, names: list[str]) ->
             return bool(expected) and expected == names
     return False
 
-def resolve_franchise(team: dict[str, Any], season: int, mapping: dict[str, Any], by_id: dict[str, list[str]], by_name: dict[str, str]) -> str:
+def resolve_franchise(team: dict[str, Any], season: int, mapping: dict[str, Any], by_id: dict[str, list[str]], by_name: dict[str, list[str]]) -> str:
     source_id = team_id(team)
     source_managers = managers(team)
     if not source_managers:
         raise ValueError(f"unknown manager/team mapping for season {season}, ESPN team {source_id}")
     candidates = list(by_id.get(source_id, []))
-    name_match = by_name.get(norm(team.get("name", team.get("teamName", ""))))
-    if name_match and name_match not in candidates: candidates.append(name_match)
+    for name_match in by_name.get(norm(team.get("name", team.get("teamName", ""))), []):
+        if name_match not in candidates: candidates.append(name_match)
     if not candidates:
         candidates = [item["key"] for item in mapping.get("franchises", []) if manager_matches(item, season, source_managers)]
     candidates = sorted(set(candidates))
@@ -120,6 +120,8 @@ def normalize(raw: dict[str, Any], mapping: dict[str, Any]) -> dict[str, Any]:
         source_id = team_id(row)
         if source_id not in resolved: raise ValueError(f"summary references an unmapped ESPN team {source_id}")
         candidate_summaries.append({"season": season, "owner": resolved[source_id], "wins": int(row.get("wins", 0)), "losses": int(row.get("losses", 0)), "ties": int(row.get("ties", 0)), "finish": int(row.get("finish", 0)), "points_for": numeric(row.get("points_for", row.get("pointsFor", 0)), "points_for")})
+    if not candidate_games or not candidate_summaries:
+        raise ValueError(f"season {season} has no complete matchup and standings rows to review")
     return {"season": season, "status": "candidate", "source": "sanitized ESPN export", "teams": candidate_teams, "games": candidate_games, "summaries": candidate_summaries}
 
 def write_candidate(candidate: dict[str, Any], destination: Path) -> None:
