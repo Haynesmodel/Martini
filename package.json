@@ -8,9 +8,12 @@
     "dev": "vite --host 127.0.0.1",
     "build": "npm run generate:data && vite build",
     "preview": "vite preview --host 127.0.0.1",
+    "build:preview": "VITE_BASE_PATH=/Martini/ npm run build && node scripts/preview_server.cjs",
     "generate:data": "node scripts/generate_data.cjs",
     "test:assets": "node scripts/validate_assets.cjs",
     "test:unit": "node --test test/*.test.cjs",
+    "check:no-leaks": "node scripts/check_no_leaks.cjs",
+    "validate:dist": "node scripts/validate_dist.cjs dist",
     "test:ui:preview:chromium": "playwright test --project=chromium",
     "test:ui:preview:webkit": "playwright test --project=webkit"
   },

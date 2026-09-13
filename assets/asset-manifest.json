@@ -1,6 +1,7 @@
 {
   "manifest_version": 1,
   "data_version": "martini-history-v1",
+  "history_status": "blocked-pending-reviewed-espn-export",
   "schema_versions": {
     "H2H": 1,
     "SeasonSummary": 1,
@@ -9,34 +10,21 @@
   "assets": {
     "H2H": {
       "path": "assets/H2H.json",
-      "bytes": 3035,
-      "sha256": "c1ba96a683b7bbc85d3af1ddc58351af779b583f794a5040d1892eba5f6effeb"
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
     },
     "SeasonSummary": {
       "path": "assets/SeasonSummary.json",
-      "bytes": 4443,
-      "sha256": "75e64c92d21145d81c7cb396be4e5c61b117aa1bee53e100329f15acf76f5e09"
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
     },
     "Rivalries": {
       "path": "assets/Rivalries.json",
       "bytes": 3,
       "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
-    },
-    "DerivedStats": {
-      "path": "assets/DerivedStats.json",
-      "bytes": 296,
-      "sha256": "d0c93cc2f509f6a8652689974358998036bcfa552b90d556ba823e26a455e21e"
-    },
-    "DraftSpot": {
-      "path": "assets/DraftSpot.json",
-      "bytes": 1842,
-      "sha256": "8aeff5dabf990fdb290b4fee6caa7996f5b7394b8b53a3bf89be8d18298ee806"
     }
   },
-  "generated_assets": [
-    "DerivedStats",
-    "DraftSpot"
-  ],
+  "generated_assets": [],
   "hero": {
     "source": "assets/hero/martini-source.png",
     "variants": 12

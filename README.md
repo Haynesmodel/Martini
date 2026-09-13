@@ -9,7 +9,9 @@ npm ci
 npm run generate:data
 npm run test:assets
 npm run test:unit
+npm run check:no-leaks
 VITE_BASE_PATH=/Martini/ npm run build
+npm run validate:dist
 ```
 
 Local development uses `/`; the GitHub Pages project build uses `/Martini/`.

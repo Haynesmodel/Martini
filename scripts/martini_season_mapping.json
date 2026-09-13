@@ -4,6 +4,7 @@
   "last_completed_season": 2025,
   "status": "blocked-pending-authenticated-export-review",
   "expected_team_count": 12,
+  "team_aliases": [],
   "franchises": [
     {"key":"franchise-joelia","display_name":"Team JOELIA","manager_history":[{"from":2025,"to":2026,"managers":["Joe Haynes","Julia Haynes"]}]},
     {"key":"franchise-roell-alex","display_name":"Team Roell","manager_history":[{"from":2026,"to":2026,"managers":["Alex Roell"]}]},
