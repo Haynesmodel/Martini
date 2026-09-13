@@ -42,6 +42,18 @@ test('self-matchup, duplicate matchup, duplicate franchise-season, and ambiguous
   const duplicateFranchise = validPayload(); duplicateFranchise.teams[1].id = '1'; assert.match(run(duplicateFranchise, { dir, mapping }).stderr, /duplicate ESPN team ID|duplicate franchise-season/);
   const ambiguousMapping = mappingFile(dir, true); const ambiguous = validPayload(); ambiguous.teams[0].id = 'unknown'; ambiguous.teams[0].name = 'Unknown'; ambiguous.teams[0].managers = ['Manager a']; assert.match(run(ambiguous, { dir, mapping: ambiguousMapping }).stderr, /ambiguous/);
 });
+test('known aliases still require a covering exact manager interval', () => {
+  const dir = fixtureDir(); const mapping = JSON.parse(fs.readFileSync(mappingFile(dir)));
+  const changed = structuredClone(mapping); changed.franchises[0].manager_history[0].managers = ['Different Manager']; const changedFile = path.join(dir, 'changed.json'); fs.writeFileSync(changedFile, JSON.stringify(changed));
+  assert.match(run(validPayload(), { dir, mapping: changedFile }).stderr, /unknown manager\/team mapping/);
+  const absent = structuredClone(mapping); absent.franchises[0].manager_history = []; const absentFile = path.join(dir, 'absent.json'); fs.writeFileSync(absentFile, JSON.stringify(absent));
+  assert.match(run(validPayload(), { dir, mapping: absentFile }).stderr, /no single manager-history interval/);
+});
+test('standings must contain exactly one row for every mapped team', () => {
+  const dir = fixtureDir(); const mapping = mappingFile(dir);
+  const duplicate = validPayload(); duplicate.standings.push({ ...duplicate.standings[0], id: '1' }); assert.match(run(duplicate, { dir, mapping }).stderr, /duplicate standings source team/);
+  const missing = validPayload(); missing.standings = missing.standings.slice(0, 3); assert.match(run(missing, { dir, mapping }).stderr, /standings are missing mapped source teams/);
+});
 test('reviewed promotion survives generation and asset validation in isolation', () => {
   const project = fixtureDir(); fs.cpSync(path.join(root, 'assets'), path.join(project, 'assets'), { recursive: true }); fs.mkdirSync(path.join(project, 'scripts'));
   fs.copyFileSync(path.join(root, 'scripts/generate_data.cjs'), path.join(project, 'scripts/generate_data.cjs'));

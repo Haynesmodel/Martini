@@ -70,7 +70,9 @@ def resolve_franchise(team: dict[str, Any], season: int, mapping: dict[str, Any]
     if len(candidates) != 1: raise ValueError(f"ambiguous manager/team mapping for season {season}, ESPN team {source_id}: {', '.join(candidates)}")
     franchise = next(item for item in mapping.get("franchises", []) if item.get("key") == candidates[0])
     intervals = [item for item in franchise.get("manager_history", []) if int(item.get("from", 0)) <= season <= int(item.get("to", 0))]
-    if intervals and sorted({norm(item) for item in intervals[0].get("managers", [])}) != source_managers:
+    if len(intervals) != 1:
+        raise ValueError(f"unknown or ambiguous manager/team mapping for season {season}, ESPN team {source_id}: no single manager-history interval")
+    if sorted({norm(item) for item in intervals[0].get("managers", [])}) != source_managers:
         raise ValueError(f"unknown manager/team mapping for season {season}, ESPN team {source_id}")
     return candidates[0]
 
@@ -116,10 +118,19 @@ def normalize(raw: dict[str, Any], mapping: dict[str, Any]) -> dict[str, Any]:
         score_a = numeric(matchup.get("scoreA", matchup.get("homeScore")), "scoreA"); score_b = numeric(matchup.get("scoreB", matchup.get("awayScore")), "scoreB")
         candidate_games.append({"season": season, "week": week, "teamA": team_a, "teamB": team_b, "scoreA": score_a, "scoreB": score_b})
     candidate_summaries = []
+    summary_sources: set[str] = set()
+    summary_franchises: set[str] = set()
     for row in raw.get("standings", raw.get("summaries", [])):
         source_id = team_id(row)
         if source_id not in resolved: raise ValueError(f"summary references an unmapped ESPN team {source_id}")
-        candidate_summaries.append({"season": season, "owner": resolved[source_id], "wins": int(row.get("wins", 0)), "losses": int(row.get("losses", 0)), "ties": int(row.get("ties", 0)), "finish": int(row.get("finish", 0)), "points_for": numeric(row.get("points_for", row.get("pointsFor", 0)), "points_for")})
+        owner = resolved[source_id]
+        if source_id in summary_sources: raise ValueError(f"duplicate standings source team {source_id}")
+        if owner in summary_franchises: raise ValueError(f"duplicate franchise-season standings row for {season}: {owner}")
+        summary_sources.add(source_id); summary_franchises.add(owner)
+        candidate_summaries.append({"season": season, "owner": owner, "wins": int(row.get("wins", 0)), "losses": int(row.get("losses", 0)), "ties": int(row.get("ties", 0)), "finish": int(row.get("finish", 0)), "points_for": numeric(row.get("points_for", row.get("pointsFor", 0)), "points_for")})
+    if summary_sources != set(resolved) or summary_franchises != used_franchises:
+        missing = sorted(set(resolved) - summary_sources)
+        raise ValueError(f"standings are missing mapped source teams: {', '.join(missing)}")
     if not candidate_games or not candidate_summaries:
         raise ValueError(f"season {season} has no complete matchup and standings rows to review")
     return {"season": season, "status": "candidate", "source": "sanitized ESPN export", "teams": candidate_teams, "games": candidate_games, "summaries": candidate_summaries}
