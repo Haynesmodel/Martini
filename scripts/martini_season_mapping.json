@@ -1,0 +1,14 @@
+{
+  "league_id": "105629356",
+  "first_completed_season": 2021,
+  "last_completed_season": 2025,
+  "status": "blocked-pending-authenticated-export-review",
+  "expected_team_count": 12,
+  "franchises": [
+    {"key":"franchise-joelia","display_name":"Team JOELIA","manager_history":[{"from":2025,"to":2026,"managers":["Joe Haynes","Julia Haynes"]}]},
+    {"key":"franchise-roell-alex","display_name":"Team Roell","manager_history":[{"from":2026,"to":2026,"managers":["Alex Roell"]}]},
+    {"key":"franchise-roell-paul","display_name":"Westbrook Acres Vintage Wines","manager_history":[{"from":2025,"to":2026,"managers":["Paul Roell"]}]}
+  ],
+  "seasons": {"2021":{"teams":12},"2022":{"teams":12},"2023":{"teams":12},"2024":{"teams":12},"2025":{"teams":12}},
+  "notes": ["The visible ESPN history control exposes 2021 through 2025 as completed seasons.","2026 evidence remains excluded from canonical history.","Historical team IDs and complete manager intervals require the authenticated ESPN API export before promotion."]
+}

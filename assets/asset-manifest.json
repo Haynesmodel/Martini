@@ -1,201 +1,45 @@
 {
+  "manifest_version": 1,
+  "data_version": "martini-history-v1",
+  "schema_versions": {
+    "H2H": 1,
+    "SeasonSummary": 1,
+    "Rivalries": 1
+  },
   "assets": {
-    "CurrentSeason": {
-      "bytes": 28243,
-      "path": "assets/CurrentSeason.json",
-      "required": false,
-      "rows": 84,
-      "season_max": 2026,
-      "season_min": 2026,
-      "sha256": "sha256:a345963fcda185aa07f3a39ef35670053aa254c62e0bc735f7c39a59c0833926"
-    },
-    "DraftSpot": {
-      "bytes": 74856,
-      "path": "assets/DraftSpot.json",
-      "required": false,
-      "rows": 66,
-      "season_max": 2025,
-      "season_min": 2020,
-      "sha256": "sha256:1221f40b71878f9da3e1f6a059f7ad2afed89f5ee38666cc3cdda8a03a2ab339"
-    },
     "H2H": {
-      "bytes": 95708,
       "path": "assets/H2H.json",
-      "required": true,
-      "rows": 486,
-      "season_max": 2025,
-      "season_min": 2020,
-      "sha256": "sha256:fa778feb113ec9fc9fb288a7520df823e4d1188587d6d27c252821f5175c0323"
-    },
-    "Rivalries": {
-      "bytes": 1530,
-      "path": "assets/Rivalries.json",
-      "required": false,
-      "rows": 9,
-      "season_max": null,
-      "season_min": null,
-      "sha256": "sha256:92ba7b7af7abf916deb0b25b6ee41998f1539ac638b0b69870a0b3b013eb3967"
+      "bytes": 3035,
+      "sha256": "c1ba96a683b7bbc85d3af1ddc58351af779b583f794a5040d1892eba5f6effeb"
     },
     "SeasonSummary": {
-      "bytes": 28557,
       "path": "assets/SeasonSummary.json",
-      "required": true,
-      "rows": 66,
-      "season_max": 2025,
-      "season_min": 2020,
-      "sha256": "sha256:00a67bf1fd3300a6ceaccf00fd9629e2865fdd0f7d65cc3e8ada1f4d0eb16346"
+      "bytes": 4443,
+      "sha256": "75e64c92d21145d81c7cb396be4e5c61b117aa1bee53e100329f15acf76f5e09"
     },
-    "Shotguns": {
-      "bytes": 23050,
-      "path": "assets/Shotguns.json",
-      "required": false,
-      "rows": 95,
-      "season_max": null,
-      "season_min": null,
-      "sha256": "sha256:a2b4bcb385fd526c80dfdf6483e99ed9e6a8e7e449ed35cc509dc17817f88aef"
-    }
-  },
-  "data_version": "sha256:106efbd0b9190fe3e20274efd6048965926d62e624bdea152fa773a8b439dd3a",
-  "derived": {
-    "bytes": 127374,
-    "path": "assets/DerivedStats.json",
-    "required": false,
-    "sha256": "sha256:58dcb566b4045a08bf0fa66e048a04ebcfab5d0adac8ba7f16c60a2437e4e0c1",
-    "source_hashes": {
-      "H2H": "sha256:fa778feb113ec9fc9fb288a7520df823e4d1188587d6d27c252821f5175c0323",
-      "Rivalries": "sha256:92ba7b7af7abf916deb0b25b6ee41998f1539ac638b0b69870a0b3b013eb3967",
-      "SeasonSummary": "sha256:00a67bf1fd3300a6ceaccf00fd9629e2865fdd0f7d65cc3e8ada1f4d0eb16346"
-    }
-  },
-  "derived_generator_version": 1,
-  "manifest_version": 3,
-  "media": {
-    "leagueHero": {
-      "role": "runtime-required",
-      "variants": [
-        {
-          "bytes": 17721,
-          "format": "avif",
-          "height": 866,
-          "max_bytes": 307200,
-          "path": "assets/hero/league-1280.avif",
-          "sha256": "sha256:0b4bf7501ca1f244c16bef7cba531a78f21ba89c7d4a89572c0c01437a1fe309",
-          "width": 1280
-        },
-        {
-          "bytes": 43444,
-          "format": "jpeg",
-          "height": 866,
-          "max_bytes": 440320,
-          "path": "assets/hero/league-1280.jpg",
-          "sha256": "sha256:ce822142e8f0447862d08413eab27ba92896b268c6e87d7160d835c910d30e8f",
-          "width": 1280
-        },
-        {
-          "bytes": 22466,
-          "format": "webp",
-          "height": 866,
-          "max_bytes": 368640,
-          "path": "assets/hero/league-1280.webp",
-          "sha256": "sha256:104e953e466f13971e20aaca790effaa83ed9b3bcbbdd9cb0e740a11f0db8afa",
-          "width": 1280
-        },
-        {
-          "bytes": 26901,
-          "format": "avif",
-          "height": 1299,
-          "max_bytes": 532480,
-          "path": "assets/hero/league-1920.avif",
-          "sha256": "sha256:6931ee9261bf915104b2aa071fb8abd76ddcd19162fd5362607597c12dcaf36c",
-          "width": 1920
-        },
-        {
-          "bytes": 72865,
-          "format": "jpeg",
-          "height": 1299,
-          "max_bytes": 778240,
-          "path": "assets/hero/league-1920.jpg",
-          "sha256": "sha256:b4ec2a82c70919b1a1d845d711a1e2f5823e448adf04aae749603791304161f5",
-          "width": 1920
-        },
-        {
-          "bytes": 37028,
-          "format": "webp",
-          "height": 1299,
-          "max_bytes": 655360,
-          "path": "assets/hero/league-1920.webp",
-          "sha256": "sha256:83635289d65aa3337f8d4db71f236c65a12358c371343b1ad6c6b84c6c77deef",
-          "width": 1920
-        },
-        {
-          "bytes": 6029,
-          "format": "avif",
-          "height": 325,
-          "max_bytes": 92160,
-          "path": "assets/hero/league-480.avif",
-          "sha256": "sha256:0b93b6c77d047c81444d7602402c10dc4a873f717a81cf26459bec4635ba1216",
-          "width": 480
-        },
-        {
-          "bytes": 11845,
-          "format": "jpeg",
-          "height": 325,
-          "max_bytes": 133120,
-          "path": "assets/hero/league-480.jpg",
-          "sha256": "sha256:16c4425e0926b8fecc3d7863a4eabe57cb4b9fac37240a3d600abe7d35e6564a",
-          "width": 480
-        },
-        {
-          "bytes": 6934,
-          "format": "webp",
-          "height": 325,
-          "max_bytes": 112640,
-          "path": "assets/hero/league-480.webp",
-          "sha256": "sha256:c9bb51c16acded1ff062b9b79c0846be152690bad4174d611f28b4b6677e2b53",
-          "width": 480
-        },
-        {
-          "bytes": 10071,
-          "format": "avif",
-          "height": 520,
-          "max_bytes": 153600,
-          "path": "assets/hero/league-768.avif",
-          "sha256": "sha256:74dda079176f0a3466d2753acf15e787cbff2814b722bd96ea20192ed59285f4",
-          "width": 768
-        },
-        {
-          "bytes": 22185,
-          "format": "jpeg",
-          "height": 520,
-          "max_bytes": 225280,
-          "path": "assets/hero/league-768.jpg",
-          "sha256": "sha256:89c794246715e7d6ca8347f9c3f6b9387a6f54e55018325f4df2921db1ed72c4",
-          "width": 768
-        },
-        {
-          "bytes": 11984,
-          "format": "webp",
-          "height": 520,
-          "max_bytes": 184320,
-          "path": "assets/hero/league-768.webp",
-          "sha256": "sha256:845a56fb8a77512319400db34365bef50d2762c27ba6b3063ac254596ace6c37",
-          "width": 768
-        }
-      ]
+    "Rivalries": {
+      "path": "assets/Rivalries.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
     },
-    "leagueHeroSource": {
-      "fallback": "assets/hero/league-1920.jpg",
-      "path": "assets/LeaguePic.jpeg",
-      "role": "regeneration-optional"
+    "DerivedStats": {
+      "path": "assets/DerivedStats.json",
+      "bytes": 296,
+      "sha256": "d0c93cc2f509f6a8652689974358998036bcfa552b90d556ba823e26a455e21e"
+    },
+    "DraftSpot": {
+      "path": "assets/DraftSpot.json",
+      "bytes": 1842,
+      "sha256": "8aeff5dabf990fdb290b4fee6caa7996f5b7394b8b53a3bf89be8d18298ee806"
     }
   },
-  "schema_versions": {
-    "CurrentSeason": 1,
-    "DerivedStats": 1,
-    "DraftSpot": 1,
-    "H2H": 1,
-    "Rivalries": 1,
-    "SeasonSummary": 1,
-    "Shotguns": 1
-  }
+  "generated_assets": [
+    "DerivedStats",
+    "DraftSpot"
+  ],
+  "hero": {
+    "source": "assets/hero/martini-source.png",
+    "variants": 12
+  },
+  "current_season": null
 }
