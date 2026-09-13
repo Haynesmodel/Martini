@@ -8,11 +8,8 @@ test-results/
 scripts/__pycache__/
 test/__pycache__/
 scripts/.update-*/
-assets/H2H.updated.json
-assets/CurrentSeason.updated.json
-assets/H2H_backup.json
-assets/Shotguns.updated.json
-assets/Shotguns_backup.json
+assets/*.updated.json
+assets/*_backup.json
 raw-exports/
 *.espn.json
 .DS_Store
