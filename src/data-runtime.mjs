@@ -35,14 +35,14 @@ function validateRows(games, summaries, manifest) {
 }
 
 export async function loadHistory(base, fetchImpl = fetch) {
-  const manifestResponse = await fetchImpl(urlFor(base, 'assets/asset-manifest.json'));
+  const manifestResponse = await fetchImpl(urlFor(base, 'assets/asset-manifest.json'), { cache: 'no-store' });
   if (!manifestResponse.ok) throw new Error(`asset manifest request failed (${manifestResponse.status})`);
   const manifest = await manifestResponse.json();
   const payloads = {};
   for (const name of REQUIRED) {
     const descriptor = manifest.assets?.[name];
     if (!descriptor?.path || !descriptor.sha256) throw new Error(`manifest is missing ${name}`);
-    const response = await fetchImpl(urlFor(base, descriptor.path));
+    const response = await fetchImpl(urlFor(base, descriptor.path), { cache: 'no-store' });
     if (!response.ok) throw new Error(`${name} request failed (${response.status})`);
     const bytes = await response.arrayBuffer();
     const actual = await sha256(bytes);
