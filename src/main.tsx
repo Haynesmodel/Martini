@@ -50,8 +50,8 @@ function App() {
   useEffect(() => { loadHistory(import.meta.env.BASE_URL).then(setData).catch(error => setDataError(error instanceof Error ? error.message : 'Required history data could not be verified.')); }, []);
   const games = data?.games ?? [];
   const summaries = data?.summaries ?? [];
-  const selectedGames = useMemo(() => games.filter(game => (team === 'all' || game.teamA === team || game.teamB === team) && (season === 'all' || String(game.season) === season)), [team, season]);
-  const selectedSummaries = useMemo(() => summaries.filter(row => (team === 'all' || row.owner === team) && (season === 'all' || String(row.season) === season)), [team, season]);
+  const selectedGames = useMemo(() => games.filter(game => (team === 'all' || game.teamA === team || game.teamB === team) && (season === 'all' || String(game.season) === season)), [games, team, season]);
+  const selectedSummaries = useMemo(() => summaries.filter(row => (team === 'all' || row.owner === team) && (season === 'all' || String(row.season) === season)), [summaries, team, season]);
   const seasons = [...new Set(summaries.map(row => row.season))].sort();
   const historyReady = data?.status === 'promoted';
   const selectTab = (next: Tab) => { setTab(next); history.replaceState(null, '', next === 'history' ? './' : `?tab=${next}`); };

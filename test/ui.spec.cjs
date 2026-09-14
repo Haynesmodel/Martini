@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test'); const AxeBuilder = require
 test('production history normalizes stale routes and shows promoted records', async ({ page }) => {
   for (const route of ['?tab=pulse', '?tab=current', '?tab=shotguns', '?tab=history']) {
     await page.goto(route); await expect(page.getByRole('heading', { name: 'Martini Family Fantasy Football League' })).toBeVisible();
-    await expect(page.getByText('Season standings')).toBeVisible(); await expect(page.locator('table')).toHaveCount(1);
+    await expect(page.getByText('Season standings')).toBeVisible(); await expect(page.locator('table')).toHaveCount(1); await expect(page.locator('tbody tr')).toHaveCount(60);
   }
 });
 test('Pages-base assets are served by the production artifact', async ({ page, request }) => {
