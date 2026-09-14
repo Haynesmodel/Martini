@@ -2,14 +2,36 @@
   "league_id": "105629356",
   "first_completed_season": 2021,
   "last_completed_season": 2025,
-  "status": "blocked-pending-authenticated-export-review",
+  "status": "reviewed-browser-export",
   "expected_team_count": 12,
-  "team_aliases": [],
+  "team_aliases": [
+    {"franchise_key":"franchise-roell-alex","espn_team_ids":["1"],"source_names":["Team Roell"]},
+    {"franchise_key":"franchise-harrison","espn_team_ids":["2"],"source_names":["B-town Brawlers","Harrison Hillbillies"]},
+    {"franchise_key":"franchise-natini","espn_team_ids":["3"],"source_names":["Team Natini"]},
+    {"franchise_key":"franchise-joelia","espn_team_ids":["4"],"source_names":["Team Haynes","Team JOELIA"]},
+    {"franchise_key":"franchise-best-martini","espn_team_ids":["5"],"source_names":["Best Martini"]},
+    {"franchise_key":"franchise-on-the-rocks","espn_team_ids":["6"],"source_names":["Team On The Rocks"]},
+    {"franchise_key":"franchise-bonomini","espn_team_ids":["7"],"source_names":["Team Bonomini"]},
+    {"franchise_key":"franchise-westbrook","espn_team_ids":["8"],"source_names":["Avengers Captain Marvel","Infinity Rockin Retired","Old Retired Man","Westbrook Acres Vintage Wines"]},
+    {"franchise_key":"franchise-jtd","espn_team_ids":["9"],"source_names":["Team Seth Davis","Tyreek!?!","JTD"]},
+    {"franchise_key":"franchise-goat","espn_team_ids":["10"],"source_names":["The GOAT"]},
+    {"franchise_key":"franchise-clifton","espn_team_ids":["11"],"source_names":["The Muncie Mocals","Clifton Convicts"]},
+    {"franchise_key":"franchise-maleahs","espn_team_ids":["12"],"source_names":["Lights, Kamara, Action!","On Burrowed Time","More money than yards","AI Team (AI Will Manage)","maleah's Magnificent Team"]}
+  ],
   "franchises": [
-    {"key":"franchise-joelia","display_name":"Team JOELIA","manager_history":[{"from":2026,"to":2026,"managers":["Joe Haynes","Julia Haynes"]}]},
-    {"key":"franchise-roell-alex","display_name":"Team Roell","manager_history":[{"from":2026,"to":2026,"managers":["Alex Roell"]}]},
-    {"key":"franchise-roell-paul","display_name":"Westbrook Acres Vintage Wines","manager_history":[{"from":2026,"to":2026,"managers":["Paul Roell"]}]}
+    {"key":"franchise-roell-alex","display_name":"Team Roell","manager_history":[{"from":2021,"to":2025,"managers":["ESPNFAN3356827512"]}]},
+    {"key":"franchise-harrison","display_name":"Harrison Hillbillies","manager_history":[{"from":2021,"to":2025,"managers":["32nicholas23"]}]},
+    {"key":"franchise-natini","display_name":"Team Natini","manager_history":[{"from":2021,"to":2025,"managers":["espn13400495"]}]},
+    {"key":"franchise-joelia","display_name":"Team JOELIA","manager_history":[{"from":2021,"to":2025,"managers":["HaynesModel","espn64326837"]}]},
+    {"key":"franchise-best-martini","display_name":"Best Martini","manager_history":[{"from":2021,"to":2025,"managers":["martinim21"]}]},
+    {"key":"franchise-on-the-rocks","display_name":"Team On The Rocks","manager_history":[{"from":2021,"to":2025,"managers":["ESPNFAN2895181337"]}]},
+    {"key":"franchise-bonomini","display_name":"Team Bonomini","manager_history":[{"from":2021,"to":2025,"managers":["ESPNFAN0601123115"]}]},
+    {"key":"franchise-westbrook","display_name":"Westbrook Acres Vintage Wines","manager_history":[{"from":2021,"to":2025,"managers":["Paul262014"]}]},
+    {"key":"franchise-jtd","display_name":"JTD","manager_history":[{"from":2021,"to":2022,"managers":["ESPNFAN5613700598"]},{"from":2023,"to":2025,"managers":["ESPNFAN0463372338"]}]},
+    {"key":"franchise-goat","display_name":"The GOAT","manager_history":[{"from":2021,"to":2025,"managers":["Bill41314"]}]},
+    {"key":"franchise-clifton","display_name":"Clifton Convicts","manager_history":[{"from":2021,"to":2025,"managers":["ESPNFAN1872010626"]}]},
+    {"key":"franchise-maleahs","display_name":"maleah's Magnificent Team","manager_history":[{"from":2021,"to":2023,"managers":["BigLJ50"]},{"from":2024,"to":2024,"managers":["ESPNFAN3356827512"]},{"from":2025,"to":2025,"managers":["maleahmartini"]}]}
   ],
   "seasons": {"2021":{"teams":12},"2022":{"teams":12},"2023":{"teams":12},"2024":{"teams":12},"2025":{"teams":12}},
-  "notes": ["The visible ESPN history control exposes 2021 through 2025 as completed seasons.","2026 evidence remains excluded from canonical history.","Historical team IDs and complete manager intervals require the authenticated ESPN API export before promotion."]
+  "notes": ["Completed seasons were exported from the authenticated ESPN browser session on 2026-09-13.","The mapping preserves ESPN team-slot continuity and records each verified manager transition."]
 }

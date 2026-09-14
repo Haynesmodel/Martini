@@ -13,8 +13,12 @@ const tabs: Array<[Tab, string]> = [
   ['dynasty', 'Dynasty'], ['draft', 'Draft Spot'], ['matchup', 'Historical Matchup'],
 ];
 const franchiseNames: Record<string, string> = {
-  'franchise-joelia': 'Team JOELIA', 'franchise-roell-alex': 'Team Roell',
-  'franchise-roell-paul': 'Westbrook Acres Vintage Wines',
+  'franchise-roell-alex': 'Team Roell', 'franchise-harrison': 'Harrison Hillbillies',
+  'franchise-natini': 'Team Natini', 'franchise-joelia': 'Team JOELIA',
+  'franchise-best-martini': 'Best Martini', 'franchise-on-the-rocks': 'Team On The Rocks',
+  'franchise-bonomini': 'Team Bonomini', 'franchise-westbrook': 'Westbrook Acres Vintage Wines',
+  'franchise-jtd': 'JTD', 'franchise-goat': 'The GOAT',
+  'franchise-clifton': 'Clifton Convicts', 'franchise-maleahs': "maleah's Magnificent Team",
 };
 
 function routeTab(): Tab {

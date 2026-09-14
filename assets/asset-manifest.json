@@ -1,7 +1,7 @@
 {
   "manifest_version": 1,
   "data_version": "martini-history-v1",
-  "history_status": "blocked-pending-reviewed-espn-export",
+  "history_status": "promoted",
   "schema_versions": {
     "H2H": 1,
     "SeasonSummary": 1,
@@ -10,13 +10,13 @@
   "assets": {
     "H2H": {
       "path": "assets/H2H.json",
-      "bytes": 3,
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      "bytes": 78577,
+      "sha256": "c4d71b7933448cf29c4e2d65657362ac5d2e3a5e988df014e9299d083cd5ddba"
     },
     "SeasonSummary": {
       "path": "assets/SeasonSummary.json",
-      "bytes": 3,
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      "bytes": 9242,
+      "sha256": "b0495daaf88ecd0b1c68a09b9ce9d865290aa4a5c9bf198071e58cf860dbe4ba"
     },
     "Rivalries": {
       "path": "assets/Rivalries.json",

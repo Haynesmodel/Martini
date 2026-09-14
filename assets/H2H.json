@@ -1,1 +1,4042 @@
-[]
+[
+  {
+    "season": 2021,
+    "week": 1,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-clifton",
+    "scoreA": 124.58,
+    "scoreB": 142.46
+  },
+  {
+    "season": 2021,
+    "week": 1,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-natini",
+    "scoreA": 122.1,
+    "scoreB": 105.72
+  },
+  {
+    "season": 2021,
+    "week": 1,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 133.56,
+    "scoreB": 131.24
+  },
+  {
+    "season": 2021,
+    "week": 1,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-westbrook",
+    "scoreA": 125.9,
+    "scoreB": 100.38
+  },
+  {
+    "season": 2021,
+    "week": 1,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-harrison",
+    "scoreA": 109.88,
+    "scoreB": 129.96
+  },
+  {
+    "season": 2021,
+    "week": 1,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-maleahs",
+    "scoreA": 148.86,
+    "scoreB": 113.28
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-natini",
+    "scoreA": 122.9,
+    "scoreB": 177.8
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-jtd",
+    "scoreA": 96.12,
+    "scoreB": 108.22
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-bonomini",
+    "scoreA": 127.22,
+    "scoreB": 86.36
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-harrison",
+    "scoreA": 109.78,
+    "scoreB": 166.2
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-joelia",
+    "scoreA": 123.82,
+    "scoreB": 106.86
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 142.34,
+    "scoreB": 135.72
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-clifton",
+    "scoreA": 100.82,
+    "scoreB": 121.74
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-best-martini",
+    "scoreA": 107.54,
+    "scoreB": 104.12
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-bonomini",
+    "scoreA": 118.54,
+    "scoreB": 106.12
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-westbrook",
+    "scoreA": 152.74,
+    "scoreB": 74.34
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-goat",
+    "scoreA": 129.94,
+    "scoreB": 120.18
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 131.38,
+    "scoreB": 119.2
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-best-martini",
+    "scoreA": 94.92,
+    "scoreB": 112.76
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 110.02,
+    "scoreB": 91.5
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-natini",
+    "scoreA": 110.3,
+    "scoreB": 146.02
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-goat",
+    "scoreA": 66.04,
+    "scoreB": 99.16
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-maleahs",
+    "scoreA": 152.72,
+    "scoreB": 115.18
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-harrison",
+    "scoreA": 101.54,
+    "scoreB": 147.18
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-clifton",
+    "scoreA": 140.7,
+    "scoreB": 148.06
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-jtd",
+    "scoreA": 133.38,
+    "scoreB": 106.2
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-natini",
+    "scoreA": 64.8,
+    "scoreB": 151.16
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-westbrook",
+    "scoreA": 120.68,
+    "scoreB": 148.42
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-joelia",
+    "scoreA": 170.64,
+    "scoreB": 145.78
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-harrison",
+    "scoreA": 122.02,
+    "scoreB": 122.92
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-westbrook",
+    "scoreA": 138.56,
+    "scoreB": 142.58
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-joelia",
+    "scoreA": 113.16,
+    "scoreB": 104.18
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-harrison",
+    "scoreA": 123.28,
+    "scoreB": 105.7
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-maleahs",
+    "scoreA": 135.44,
+    "scoreB": 111.9
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-goat",
+    "scoreA": 144.1,
+    "scoreB": 94.38
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 106.12,
+    "scoreB": 137.58
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-jtd",
+    "scoreA": 105.44,
+    "scoreB": 70.0
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-natini",
+    "scoreA": 63.88,
+    "scoreB": 149.36
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 135.04,
+    "scoreB": 91.46
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-best-martini",
+    "scoreA": 136.98,
+    "scoreB": 160.14
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-bonomini",
+    "scoreA": 132.04,
+    "scoreB": 90.72
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-clifton",
+    "scoreA": 89.64,
+    "scoreB": 92.74
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-westbrook",
+    "scoreA": 107.36,
+    "scoreB": 118.56
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-joelia",
+    "scoreA": 118.1,
+    "scoreB": 131.98
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-harrison",
+    "scoreA": 83.12,
+    "scoreB": 128.92
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-maleahs",
+    "scoreA": 120.66,
+    "scoreB": 92.62
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-goat",
+    "scoreA": 85.86,
+    "scoreB": 121.2
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 77.0,
+    "scoreB": 102.8
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 126.88,
+    "scoreB": 64.26
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-best-martini",
+    "scoreA": 126.34,
+    "scoreB": 102.98
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-bonomini",
+    "scoreA": 88.78,
+    "scoreB": 97.76
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-clifton",
+    "scoreA": 133.14,
+    "scoreB": 84.48
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-jtd",
+    "scoreA": 106.1,
+    "scoreB": 49.32
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-natini",
+    "scoreA": 82.94,
+    "scoreB": 106.72
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-westbrook",
+    "scoreA": 88.54,
+    "scoreB": 109.16
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-joelia",
+    "scoreA": 84.84,
+    "scoreB": 132.68
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-harrison",
+    "scoreA": 85.1,
+    "scoreB": 115.72
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-maleahs",
+    "scoreA": 70.82,
+    "scoreB": 102.3
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-goat",
+    "scoreA": 125.28,
+    "scoreB": 90.2
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 91.02,
+    "scoreB": 110.24
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-bonomini",
+    "scoreA": 135.62,
+    "scoreB": 89.26
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-clifton",
+    "scoreA": 88.72,
+    "scoreB": 91.28
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-jtd",
+    "scoreA": 161.58,
+    "scoreB": 93.04
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-natini",
+    "scoreA": 100.78,
+    "scoreB": 144.6
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 114.98,
+    "scoreB": 79.5
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-best-martini",
+    "scoreA": 112.3,
+    "scoreB": 87.94
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-clifton",
+    "scoreA": 111.3,
+    "scoreB": 130.68
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-jtd",
+    "scoreA": 83.6,
+    "scoreB": 91.14
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-natini",
+    "scoreA": 107.66,
+    "scoreB": 173.48
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 106.32,
+    "scoreB": 90.68
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-best-martini",
+    "scoreA": 92.54,
+    "scoreB": 106.9
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-bonomini",
+    "scoreA": 119.0,
+    "scoreB": 124.4
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-westbrook",
+    "scoreA": 59.0,
+    "scoreB": 133.86
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-joelia",
+    "scoreA": 130.5,
+    "scoreB": 106.22
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-harrison",
+    "scoreA": 110.8,
+    "scoreB": 80.5
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-maleahs",
+    "scoreA": 91.52,
+    "scoreB": 135.28
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-goat",
+    "scoreA": 83.4,
+    "scoreB": 176.02
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 115.62,
+    "scoreB": 101.86
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-natini",
+    "scoreA": 71.82,
+    "scoreB": 129.04
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 90.48,
+    "scoreB": 123.28
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-best-martini",
+    "scoreA": 129.1,
+    "scoreB": 118.14
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-bonomini",
+    "scoreA": 160.5,
+    "scoreB": 99.92
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-clifton",
+    "scoreA": 162.32,
+    "scoreB": 115.52
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-jtd",
+    "scoreA": 94.52,
+    "scoreB": 104.9
+  },
+  {
+    "season": 2021,
+    "week": 15,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-maleahs",
+    "scoreA": 105.84,
+    "scoreB": 148.04
+  },
+  {
+    "season": 2021,
+    "week": 15,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-best-martini",
+    "scoreA": 122.36,
+    "scoreB": 52.48
+  },
+  {
+    "season": 2021,
+    "week": 15,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 152.58,
+    "scoreB": 107.6
+  },
+  {
+    "season": 2021,
+    "week": 15,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-jtd",
+    "scoreA": 57.4,
+    "scoreB": 56.78
+  },
+  {
+    "season": 2021,
+    "week": 15,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 87.1,
+    "scoreB": 71.96
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-maleahs",
+    "scoreA": 103.58,
+    "scoreB": 123.34
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-goat",
+    "scoreA": 104.56,
+    "scoreB": 130.98
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-best-martini",
+    "scoreA": 114.02,
+    "scoreB": 123.6
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-joelia",
+    "scoreA": 144.9,
+    "scoreB": 67.2
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-bonomini",
+    "scoreA": 137.82,
+    "scoreB": 89.06
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 65.4,
+    "scoreB": 77.78
+  },
+  {
+    "season": 2021,
+    "week": 17,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-maleahs",
+    "scoreA": 114.9,
+    "scoreB": 100.58
+  },
+  {
+    "season": 2021,
+    "week": 17,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-harrison",
+    "scoreA": 103.32,
+    "scoreB": 124.06
+  },
+  {
+    "season": 2021,
+    "week": 17,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-best-martini",
+    "scoreA": 83.9,
+    "scoreB": 156.44
+  },
+  {
+    "season": 2021,
+    "week": 17,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 94.42,
+    "scoreB": 88.56
+  },
+  {
+    "season": 2021,
+    "week": 17,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 97.8,
+    "scoreB": 66.86
+  },
+  {
+    "season": 2021,
+    "week": 17,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-bonomini",
+    "scoreA": 49.1,
+    "scoreB": 127.2
+  },
+  {
+    "season": 2022,
+    "week": 1,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-clifton",
+    "scoreA": 95.96,
+    "scoreB": 148.9
+  },
+  {
+    "season": 2022,
+    "week": 1,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-natini",
+    "scoreA": 114.62,
+    "scoreB": 116.58
+  },
+  {
+    "season": 2022,
+    "week": 1,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 120.56,
+    "scoreB": 101.0
+  },
+  {
+    "season": 2022,
+    "week": 1,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-westbrook",
+    "scoreA": 135.02,
+    "scoreB": 109.92
+  },
+  {
+    "season": 2022,
+    "week": 1,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-harrison",
+    "scoreA": 130.86,
+    "scoreB": 116.48
+  },
+  {
+    "season": 2022,
+    "week": 1,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-maleahs",
+    "scoreA": 103.7,
+    "scoreB": 83.82
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-natini",
+    "scoreA": 140.2,
+    "scoreB": 129.18
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-jtd",
+    "scoreA": 141.58,
+    "scoreB": 94.6
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-bonomini",
+    "scoreA": 102.06,
+    "scoreB": 99.92
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-harrison",
+    "scoreA": 118.88,
+    "scoreB": 68.8
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-joelia",
+    "scoreA": 147.36,
+    "scoreB": 127.22
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 74.46,
+    "scoreB": 126.7
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-clifton",
+    "scoreA": 104.16,
+    "scoreB": 96.68
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-best-martini",
+    "scoreA": 125.4,
+    "scoreB": 124.32
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-bonomini",
+    "scoreA": 83.9,
+    "scoreB": 129.62
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-westbrook",
+    "scoreA": 108.0,
+    "scoreB": 101.96
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-goat",
+    "scoreA": 89.24,
+    "scoreB": 88.5
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 127.5,
+    "scoreB": 88.2
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-best-martini",
+    "scoreA": 134.16,
+    "scoreB": 118.5
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 120.56,
+    "scoreB": 121.06
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-natini",
+    "scoreA": 84.18,
+    "scoreB": 95.02
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-goat",
+    "scoreA": 157.68,
+    "scoreB": 117.12
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-maleahs",
+    "scoreA": 130.62,
+    "scoreB": 115.38
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-harrison",
+    "scoreA": 139.96,
+    "scoreB": 149.6
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-clifton",
+    "scoreA": 98.16,
+    "scoreB": 101.68
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-jtd",
+    "scoreA": 128.82,
+    "scoreB": 65.16
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-natini",
+    "scoreA": 158.32,
+    "scoreB": 116.26
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-westbrook",
+    "scoreA": 145.36,
+    "scoreB": 108.9
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-joelia",
+    "scoreA": 74.76,
+    "scoreB": 107.26
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-harrison",
+    "scoreA": 115.68,
+    "scoreB": 117.84
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-westbrook",
+    "scoreA": 132.12,
+    "scoreB": 132.98
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-joelia",
+    "scoreA": 54.82,
+    "scoreB": 109.7
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-harrison",
+    "scoreA": 124.96,
+    "scoreB": 114.12
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-maleahs",
+    "scoreA": 73.82,
+    "scoreB": 101.6
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-goat",
+    "scoreA": 105.32,
+    "scoreB": 98.14
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 84.9,
+    "scoreB": 70.0
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-jtd",
+    "scoreA": 106.86,
+    "scoreB": 51.1
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-natini",
+    "scoreA": 100.3,
+    "scoreB": 86.6
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 112.5,
+    "scoreB": 112.72
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-best-martini",
+    "scoreA": 137.54,
+    "scoreB": 117.42
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-bonomini",
+    "scoreA": 105.96,
+    "scoreB": 100.1
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-clifton",
+    "scoreA": 115.42,
+    "scoreB": 130.12
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-westbrook",
+    "scoreA": 127.02,
+    "scoreB": 135.94
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-joelia",
+    "scoreA": 94.04,
+    "scoreB": 119.46
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-harrison",
+    "scoreA": 127.94,
+    "scoreB": 102.0
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-maleahs",
+    "scoreA": 139.38,
+    "scoreB": 131.48
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-goat",
+    "scoreA": 98.96,
+    "scoreB": 150.94
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 109.68,
+    "scoreB": 145.88
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 111.0,
+    "scoreB": 101.16
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-best-martini",
+    "scoreA": 55.82,
+    "scoreB": 109.8
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-bonomini",
+    "scoreA": 92.7,
+    "scoreB": 136.42
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-clifton",
+    "scoreA": 114.64,
+    "scoreB": 103.34
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-jtd",
+    "scoreA": 151.18,
+    "scoreB": 71.28
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-natini",
+    "scoreA": 103.1,
+    "scoreB": 111.12
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-westbrook",
+    "scoreA": 114.74,
+    "scoreB": 74.36
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-joelia",
+    "scoreA": 75.58,
+    "scoreB": 110.8
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-harrison",
+    "scoreA": 77.44,
+    "scoreB": 80.42
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-maleahs",
+    "scoreA": 119.24,
+    "scoreB": 115.7
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-goat",
+    "scoreA": 113.5,
+    "scoreB": 140.98
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 116.84,
+    "scoreB": 95.08
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-bonomini",
+    "scoreA": 113.74,
+    "scoreB": 117.96
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-clifton",
+    "scoreA": 103.9,
+    "scoreB": 130.26
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-jtd",
+    "scoreA": 103.14,
+    "scoreB": 60.7
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-natini",
+    "scoreA": 136.16,
+    "scoreB": 91.48
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 113.62,
+    "scoreB": 113.24
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-best-martini",
+    "scoreA": 99.0,
+    "scoreB": 139.9
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-clifton",
+    "scoreA": 123.64,
+    "scoreB": 101.8
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-jtd",
+    "scoreA": 85.42,
+    "scoreB": 103.1
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-natini",
+    "scoreA": 140.34,
+    "scoreB": 65.42
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 142.9,
+    "scoreB": 101.66
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-best-martini",
+    "scoreA": 87.46,
+    "scoreB": 115.66
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-bonomini",
+    "scoreA": 141.56,
+    "scoreB": 121.06
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-westbrook",
+    "scoreA": 93.4,
+    "scoreB": 89.86
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-joelia",
+    "scoreA": 120.06,
+    "scoreB": 128.9
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-harrison",
+    "scoreA": 109.48,
+    "scoreB": 108.54
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-maleahs",
+    "scoreA": 131.5,
+    "scoreB": 153.14
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-goat",
+    "scoreA": 75.54,
+    "scoreB": 91.46
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 123.02,
+    "scoreB": 125.42
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-natini",
+    "scoreA": 92.76,
+    "scoreB": 96.98
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 99.38,
+    "scoreB": 64.46
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-best-martini",
+    "scoreA": 93.92,
+    "scoreB": 126.38
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-bonomini",
+    "scoreA": 120.66,
+    "scoreB": 99.02
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-clifton",
+    "scoreA": 90.0,
+    "scoreB": 117.18
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-jtd",
+    "scoreA": 120.3,
+    "scoreB": 82.86
+  },
+  {
+    "season": 2022,
+    "week": 15,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-clifton",
+    "scoreA": 139.0,
+    "scoreB": 150.74
+  },
+  {
+    "season": 2022,
+    "week": 15,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-westbrook",
+    "scoreA": 122.9,
+    "scoreB": 80.0
+  },
+  {
+    "season": 2022,
+    "week": 15,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 105.06,
+    "scoreB": 61.9
+  },
+  {
+    "season": 2022,
+    "week": 15,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-harrison",
+    "scoreA": 153.26,
+    "scoreB": 109.38
+  },
+  {
+    "season": 2022,
+    "week": 15,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-jtd",
+    "scoreA": 115.06,
+    "scoreB": 108.04
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-clifton",
+    "scoreA": 66.1,
+    "scoreB": 81.06
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-joelia",
+    "scoreA": 157.9,
+    "scoreB": 121.66
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-westbrook",
+    "scoreA": 124.46,
+    "scoreB": 78.0
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-natini",
+    "scoreA": 91.7,
+    "scoreB": 99.68
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-bonomini",
+    "scoreA": 83.46,
+    "scoreB": 116.82
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-jtd",
+    "scoreA": 152.64,
+    "scoreB": 150.78
+  },
+  {
+    "season": 2022,
+    "week": 17,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-clifton",
+    "scoreA": 78.9,
+    "scoreB": 100.72
+  },
+  {
+    "season": 2022,
+    "week": 17,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-joelia",
+    "scoreA": 90.38,
+    "scoreB": 123.38
+  },
+  {
+    "season": 2022,
+    "week": 17,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-westbrook",
+    "scoreA": 95.8,
+    "scoreB": 45.3
+  },
+  {
+    "season": 2022,
+    "week": 17,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-bonomini",
+    "scoreA": 64.1,
+    "scoreB": 104.76
+  },
+  {
+    "season": 2022,
+    "week": 17,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-harrison",
+    "scoreA": 67.0,
+    "scoreB": 173.48
+  },
+  {
+    "season": 2022,
+    "week": 17,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-jtd",
+    "scoreA": 89.18,
+    "scoreB": 99.38
+  },
+  {
+    "season": 2023,
+    "week": 1,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-clifton",
+    "scoreA": 118.74,
+    "scoreB": 90.84
+  },
+  {
+    "season": 2023,
+    "week": 1,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-natini",
+    "scoreA": 87.56,
+    "scoreB": 102.14
+  },
+  {
+    "season": 2023,
+    "week": 1,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 124.36,
+    "scoreB": 102.68
+  },
+  {
+    "season": 2023,
+    "week": 1,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-westbrook",
+    "scoreA": 94.74,
+    "scoreB": 92.32
+  },
+  {
+    "season": 2023,
+    "week": 1,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-harrison",
+    "scoreA": 138.16,
+    "scoreB": 106.84
+  },
+  {
+    "season": 2023,
+    "week": 1,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-maleahs",
+    "scoreA": 100.2,
+    "scoreB": 87.38
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-natini",
+    "scoreA": 62.64,
+    "scoreB": 159.2
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-jtd",
+    "scoreA": 141.78,
+    "scoreB": 107.76
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-bonomini",
+    "scoreA": 92.7,
+    "scoreB": 143.48
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-harrison",
+    "scoreA": 131.3,
+    "scoreB": 121.54
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-joelia",
+    "scoreA": 121.68,
+    "scoreB": 131.66
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 114.82,
+    "scoreB": 119.3
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-clifton",
+    "scoreA": 140.24,
+    "scoreB": 129.44
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-best-martini",
+    "scoreA": 115.68,
+    "scoreB": 117.2
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-bonomini",
+    "scoreA": 119.12,
+    "scoreB": 153.98
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-westbrook",
+    "scoreA": 130.32,
+    "scoreB": 89.96
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-goat",
+    "scoreA": 125.76,
+    "scoreB": 151.88
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 153.66,
+    "scoreB": 88.86
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-best-martini",
+    "scoreA": 96.5,
+    "scoreB": 115.48
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 71.14,
+    "scoreB": 164.9
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-natini",
+    "scoreA": 107.2,
+    "scoreB": 94.02
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-goat",
+    "scoreA": 91.52,
+    "scoreB": 101.76
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-maleahs",
+    "scoreA": 126.16,
+    "scoreB": 134.3
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-harrison",
+    "scoreA": 106.38,
+    "scoreB": 112.38
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-clifton",
+    "scoreA": 74.64,
+    "scoreB": 142.72
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-jtd",
+    "scoreA": 149.76,
+    "scoreB": 126.36
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-natini",
+    "scoreA": 86.3,
+    "scoreB": 113.74
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-westbrook",
+    "scoreA": 89.06,
+    "scoreB": 60.22
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-joelia",
+    "scoreA": 151.72,
+    "scoreB": 106.92
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-harrison",
+    "scoreA": 135.88,
+    "scoreB": 141.5
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-westbrook",
+    "scoreA": 105.62,
+    "scoreB": 105.88
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-joelia",
+    "scoreA": 85.66,
+    "scoreB": 144.68
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-harrison",
+    "scoreA": 132.04,
+    "scoreB": 102.14
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-maleahs",
+    "scoreA": 97.34,
+    "scoreB": 111.2
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-goat",
+    "scoreA": 137.98,
+    "scoreB": 119.5
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 105.92,
+    "scoreB": 93.54
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-jtd",
+    "scoreA": 81.1,
+    "scoreB": 113.9
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-natini",
+    "scoreA": 91.64,
+    "scoreB": 148.66
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 69.06,
+    "scoreB": 135.36
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-best-martini",
+    "scoreA": 82.64,
+    "scoreB": 138.26
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-bonomini",
+    "scoreA": 131.16,
+    "scoreB": 102.18
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-clifton",
+    "scoreA": 115.52,
+    "scoreB": 93.4
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-westbrook",
+    "scoreA": 85.6,
+    "scoreB": 86.44
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-joelia",
+    "scoreA": 149.16,
+    "scoreB": 110.06
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-harrison",
+    "scoreA": 130.82,
+    "scoreB": 107.98
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-maleahs",
+    "scoreA": 97.68,
+    "scoreB": 134.68
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-goat",
+    "scoreA": 131.86,
+    "scoreB": 139.66
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 145.36,
+    "scoreB": 156.26
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 131.4,
+    "scoreB": 48.28
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-best-martini",
+    "scoreA": 61.02,
+    "scoreB": 83.44
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-bonomini",
+    "scoreA": 94.5,
+    "scoreB": 124.18
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-clifton",
+    "scoreA": 131.62,
+    "scoreB": 93.32
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-jtd",
+    "scoreA": 116.48,
+    "scoreB": 85.02
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-natini",
+    "scoreA": 97.38,
+    "scoreB": 103.0
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-westbrook",
+    "scoreA": 117.42,
+    "scoreB": 81.74
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-joelia",
+    "scoreA": 129.42,
+    "scoreB": 154.46
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-harrison",
+    "scoreA": 98.66,
+    "scoreB": 94.0
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-maleahs",
+    "scoreA": 91.18,
+    "scoreB": 151.68
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-goat",
+    "scoreA": 123.12,
+    "scoreB": 91.68
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 90.66,
+    "scoreB": 138.66
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-bonomini",
+    "scoreA": 129.34,
+    "scoreB": 81.36
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-clifton",
+    "scoreA": 109.7,
+    "scoreB": 97.26
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-jtd",
+    "scoreA": 139.38,
+    "scoreB": 142.0
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-natini",
+    "scoreA": 99.84,
+    "scoreB": 96.78
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 115.1,
+    "scoreB": 95.02
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-best-martini",
+    "scoreA": 89.22,
+    "scoreB": 120.2
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-clifton",
+    "scoreA": 108.26,
+    "scoreB": 129.64
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-jtd",
+    "scoreA": 119.12,
+    "scoreB": 124.66
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-natini",
+    "scoreA": 107.06,
+    "scoreB": 116.82
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 122.56,
+    "scoreB": 121.1
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-best-martini",
+    "scoreA": 94.4,
+    "scoreB": 122.18
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-bonomini",
+    "scoreA": 88.9,
+    "scoreB": 115.08
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-westbrook",
+    "scoreA": 80.4,
+    "scoreB": 113.16
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-joelia",
+    "scoreA": 96.7,
+    "scoreB": 127.56
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-harrison",
+    "scoreA": 131.86,
+    "scoreB": 111.02
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-maleahs",
+    "scoreA": 119.68,
+    "scoreB": 91.26
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-goat",
+    "scoreA": 148.28,
+    "scoreB": 109.42
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 126.92,
+    "scoreB": 142.96
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-natini",
+    "scoreA": 107.66,
+    "scoreB": 104.34
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 101.54,
+    "scoreB": 82.8
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-best-martini",
+    "scoreA": 130.54,
+    "scoreB": 115.64
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-bonomini",
+    "scoreA": 89.74,
+    "scoreB": 144.64
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-clifton",
+    "scoreA": 130.38,
+    "scoreB": 86.0
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-jtd",
+    "scoreA": 118.4,
+    "scoreB": 95.42
+  },
+  {
+    "season": 2023,
+    "week": 15,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-natini",
+    "scoreA": 106.06,
+    "scoreB": 88.6
+  },
+  {
+    "season": 2023,
+    "week": 15,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 88.44,
+    "scoreB": 123.06
+  },
+  {
+    "season": 2023,
+    "week": 15,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-bonomini",
+    "scoreA": 94.82,
+    "scoreB": 115.04
+  },
+  {
+    "season": 2023,
+    "week": 15,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-jtd",
+    "scoreA": 131.0,
+    "scoreB": 114.26
+  },
+  {
+    "season": 2023,
+    "week": 15,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-harrison",
+    "scoreA": 121.64,
+    "scoreB": 143.92
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-joelia",
+    "scoreA": 105.2,
+    "scoreB": 165.52
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 119.34,
+    "scoreB": 110.9
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-natini",
+    "scoreA": 90.92,
+    "scoreB": 121.2
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 121.38,
+    "scoreB": 89.08
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-harrison",
+    "scoreA": 149.1,
+    "scoreB": 104.28
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-clifton",
+    "scoreA": 133.48,
+    "scoreB": 89.7
+  },
+  {
+    "season": 2023,
+    "week": 17,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-joelia",
+    "scoreA": 194.28,
+    "scoreB": 125.2
+  },
+  {
+    "season": 2023,
+    "week": 17,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 115.52,
+    "scoreB": 117.88
+  },
+  {
+    "season": 2023,
+    "week": 17,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-natini",
+    "scoreA": 86.16,
+    "scoreB": 73.3
+  },
+  {
+    "season": 2023,
+    "week": 17,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-bonomini",
+    "scoreA": 91.48,
+    "scoreB": 108.84
+  },
+  {
+    "season": 2023,
+    "week": 17,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-jtd",
+    "scoreA": 76.1,
+    "scoreB": 100.76
+  },
+  {
+    "season": 2023,
+    "week": 17,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-harrison",
+    "scoreA": 141.08,
+    "scoreB": 124.74
+  },
+  {
+    "season": 2024,
+    "week": 1,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-clifton",
+    "scoreA": 118.76,
+    "scoreB": 112.54
+  },
+  {
+    "season": 2024,
+    "week": 1,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-natini",
+    "scoreA": 104.3,
+    "scoreB": 161.18
+  },
+  {
+    "season": 2024,
+    "week": 1,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 105.66,
+    "scoreB": 103.46
+  },
+  {
+    "season": 2024,
+    "week": 1,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-westbrook",
+    "scoreA": 108.42,
+    "scoreB": 105.06
+  },
+  {
+    "season": 2024,
+    "week": 1,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-harrison",
+    "scoreA": 124.28,
+    "scoreB": 132.48
+  },
+  {
+    "season": 2024,
+    "week": 1,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-maleahs",
+    "scoreA": 90.44,
+    "scoreB": 93.18
+  },
+  {
+    "season": 2024,
+    "week": 2,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-natini",
+    "scoreA": 103.06,
+    "scoreB": 95.16
+  },
+  {
+    "season": 2024,
+    "week": 2,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-jtd",
+    "scoreA": 104.9,
+    "scoreB": 98.32
+  },
+  {
+    "season": 2024,
+    "week": 2,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-bonomini",
+    "scoreA": 80.84,
+    "scoreB": 119.7
+  },
+  {
+    "season": 2024,
+    "week": 2,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-harrison",
+    "scoreA": 110.92,
+    "scoreB": 87.14
+  },
+  {
+    "season": 2024,
+    "week": 2,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-joelia",
+    "scoreA": 168.54,
+    "scoreB": 167.48
+  },
+  {
+    "season": 2024,
+    "week": 2,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 98.94,
+    "scoreB": 123.26
+  },
+  {
+    "season": 2024,
+    "week": 3,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-clifton",
+    "scoreA": 101.2,
+    "scoreB": 93.68
+  },
+  {
+    "season": 2024,
+    "week": 3,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-best-martini",
+    "scoreA": 136.72,
+    "scoreB": 144.46
+  },
+  {
+    "season": 2024,
+    "week": 3,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-bonomini",
+    "scoreA": 88.66,
+    "scoreB": 82.9
+  },
+  {
+    "season": 2024,
+    "week": 3,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-westbrook",
+    "scoreA": 89.68,
+    "scoreB": 87.98
+  },
+  {
+    "season": 2024,
+    "week": 3,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-goat",
+    "scoreA": 135.34,
+    "scoreB": 111.98
+  },
+  {
+    "season": 2024,
+    "week": 3,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 111.78,
+    "scoreB": 134.48
+  },
+  {
+    "season": 2024,
+    "week": 4,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-best-martini",
+    "scoreA": 104.92,
+    "scoreB": 107.22
+  },
+  {
+    "season": 2024,
+    "week": 4,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 133.96,
+    "scoreB": 111.38
+  },
+  {
+    "season": 2024,
+    "week": 4,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-natini",
+    "scoreA": 70.24,
+    "scoreB": 104.8
+  },
+  {
+    "season": 2024,
+    "week": 4,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-goat",
+    "scoreA": 97.58,
+    "scoreB": 118.2
+  },
+  {
+    "season": 2024,
+    "week": 4,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-maleahs",
+    "scoreA": 116.84,
+    "scoreB": 106.58
+  },
+  {
+    "season": 2024,
+    "week": 4,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-harrison",
+    "scoreA": 119.24,
+    "scoreB": 121.8
+  },
+  {
+    "season": 2024,
+    "week": 5,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-clifton",
+    "scoreA": 122.56,
+    "scoreB": 124.56
+  },
+  {
+    "season": 2024,
+    "week": 5,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-jtd",
+    "scoreA": 162.02,
+    "scoreB": 95.28
+  },
+  {
+    "season": 2024,
+    "week": 5,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-natini",
+    "scoreA": 66.14,
+    "scoreB": 107.54
+  },
+  {
+    "season": 2024,
+    "week": 5,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-westbrook",
+    "scoreA": 94.9,
+    "scoreB": 115.68
+  },
+  {
+    "season": 2024,
+    "week": 5,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-joelia",
+    "scoreA": 120.44,
+    "scoreB": 117.22
+  },
+  {
+    "season": 2024,
+    "week": 5,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-harrison",
+    "scoreA": 96.2,
+    "scoreB": 101.16
+  },
+  {
+    "season": 2024,
+    "week": 6,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-westbrook",
+    "scoreA": 102.6,
+    "scoreB": 122.92
+  },
+  {
+    "season": 2024,
+    "week": 6,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-joelia",
+    "scoreA": 65.32,
+    "scoreB": 140.22
+  },
+  {
+    "season": 2024,
+    "week": 6,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-harrison",
+    "scoreA": 148.36,
+    "scoreB": 91.0
+  },
+  {
+    "season": 2024,
+    "week": 6,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-maleahs",
+    "scoreA": 66.78,
+    "scoreB": 108.16
+  },
+  {
+    "season": 2024,
+    "week": 6,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-goat",
+    "scoreA": 126.96,
+    "scoreB": 73.4
+  },
+  {
+    "season": 2024,
+    "week": 6,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 105.02,
+    "scoreB": 110.1
+  },
+  {
+    "season": 2024,
+    "week": 7,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-jtd",
+    "scoreA": 70.14,
+    "scoreB": 93.6
+  },
+  {
+    "season": 2024,
+    "week": 7,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-natini",
+    "scoreA": 133.74,
+    "scoreB": 127.06
+  },
+  {
+    "season": 2024,
+    "week": 7,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 112.5,
+    "scoreB": 115.84
+  },
+  {
+    "season": 2024,
+    "week": 7,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-best-martini",
+    "scoreA": 90.4,
+    "scoreB": 123.44
+  },
+  {
+    "season": 2024,
+    "week": 7,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-bonomini",
+    "scoreA": 123.06,
+    "scoreB": 146.1
+  },
+  {
+    "season": 2024,
+    "week": 7,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-clifton",
+    "scoreA": 43.16,
+    "scoreB": 81.28
+  },
+  {
+    "season": 2024,
+    "week": 8,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-westbrook",
+    "scoreA": 128.82,
+    "scoreB": 130.36
+  },
+  {
+    "season": 2024,
+    "week": 8,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-joelia",
+    "scoreA": 109.4,
+    "scoreB": 120.56
+  },
+  {
+    "season": 2024,
+    "week": 8,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-harrison",
+    "scoreA": 124.16,
+    "scoreB": 98.2
+  },
+  {
+    "season": 2024,
+    "week": 8,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-maleahs",
+    "scoreA": 111.14,
+    "scoreB": 151.48
+  },
+  {
+    "season": 2024,
+    "week": 8,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-goat",
+    "scoreA": 109.5,
+    "scoreB": 130.58
+  },
+  {
+    "season": 2024,
+    "week": 8,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 113.92,
+    "scoreB": 86.4
+  },
+  {
+    "season": 2024,
+    "week": 9,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 114.34,
+    "scoreB": 93.34
+  },
+  {
+    "season": 2024,
+    "week": 9,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-best-martini",
+    "scoreA": 116.5,
+    "scoreB": 129.76
+  },
+  {
+    "season": 2024,
+    "week": 9,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-bonomini",
+    "scoreA": 115.5,
+    "scoreB": 129.48
+  },
+  {
+    "season": 2024,
+    "week": 9,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-clifton",
+    "scoreA": 91.86,
+    "scoreB": 120.8
+  },
+  {
+    "season": 2024,
+    "week": 9,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-jtd",
+    "scoreA": 116.14,
+    "scoreB": 71.22
+  },
+  {
+    "season": 2024,
+    "week": 9,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-natini",
+    "scoreA": 75.4,
+    "scoreB": 139.7
+  },
+  {
+    "season": 2024,
+    "week": 10,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-westbrook",
+    "scoreA": 155.08,
+    "scoreB": 87.32
+  },
+  {
+    "season": 2024,
+    "week": 10,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-joelia",
+    "scoreA": 131.06,
+    "scoreB": 130.5
+  },
+  {
+    "season": 2024,
+    "week": 10,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-harrison",
+    "scoreA": 89.94,
+    "scoreB": 81.84
+  },
+  {
+    "season": 2024,
+    "week": 10,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-maleahs",
+    "scoreA": 78.1,
+    "scoreB": 104.84
+  },
+  {
+    "season": 2024,
+    "week": 10,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-goat",
+    "scoreA": 145.28,
+    "scoreB": 89.04
+  },
+  {
+    "season": 2024,
+    "week": 10,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 75.28,
+    "scoreB": 79.64
+  },
+  {
+    "season": 2024,
+    "week": 11,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-bonomini",
+    "scoreA": 120.04,
+    "scoreB": 131.68
+  },
+  {
+    "season": 2024,
+    "week": 11,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-clifton",
+    "scoreA": 113.58,
+    "scoreB": 116.26
+  },
+  {
+    "season": 2024,
+    "week": 11,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-jtd",
+    "scoreA": 154.08,
+    "scoreB": 95.94
+  },
+  {
+    "season": 2024,
+    "week": 11,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-natini",
+    "scoreA": 53.3,
+    "scoreB": 111.54
+  },
+  {
+    "season": 2024,
+    "week": 11,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 108.84,
+    "scoreB": 106.88
+  },
+  {
+    "season": 2024,
+    "week": 11,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-best-martini",
+    "scoreA": 69.22,
+    "scoreB": 114.14
+  },
+  {
+    "season": 2024,
+    "week": 12,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-clifton",
+    "scoreA": 93.56,
+    "scoreB": 123.3
+  },
+  {
+    "season": 2024,
+    "week": 12,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-jtd",
+    "scoreA": 127.08,
+    "scoreB": 83.62
+  },
+  {
+    "season": 2024,
+    "week": 12,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-natini",
+    "scoreA": 149.36,
+    "scoreB": 103.66
+  },
+  {
+    "season": 2024,
+    "week": 12,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 79.4,
+    "scoreB": 132.98
+  },
+  {
+    "season": 2024,
+    "week": 12,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-best-martini",
+    "scoreA": 88.16,
+    "scoreB": 61.28
+  },
+  {
+    "season": 2024,
+    "week": 12,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-bonomini",
+    "scoreA": 54.9,
+    "scoreB": 126.72
+  },
+  {
+    "season": 2024,
+    "week": 13,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-westbrook",
+    "scoreA": 125.16,
+    "scoreB": 78.46
+  },
+  {
+    "season": 2024,
+    "week": 13,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-joelia",
+    "scoreA": 81.62,
+    "scoreB": 147.58
+  },
+  {
+    "season": 2024,
+    "week": 13,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-harrison",
+    "scoreA": 113.88,
+    "scoreB": 134.3
+  },
+  {
+    "season": 2024,
+    "week": 13,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-maleahs",
+    "scoreA": 159.54,
+    "scoreB": 96.6
+  },
+  {
+    "season": 2024,
+    "week": 13,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-goat",
+    "scoreA": 120.38,
+    "scoreB": 112.84
+  },
+  {
+    "season": 2024,
+    "week": 13,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 89.26,
+    "scoreB": 84.2
+  },
+  {
+    "season": 2024,
+    "week": 14,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-natini",
+    "scoreA": 106.82,
+    "scoreB": 107.02
+  },
+  {
+    "season": 2024,
+    "week": 14,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 90.82,
+    "scoreB": 126.02
+  },
+  {
+    "season": 2024,
+    "week": 14,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-best-martini",
+    "scoreA": 92.9,
+    "scoreB": 125.64
+  },
+  {
+    "season": 2024,
+    "week": 14,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-bonomini",
+    "scoreA": 112.66,
+    "scoreB": 140.16
+  },
+  {
+    "season": 2024,
+    "week": 14,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-clifton",
+    "scoreA": 89.1,
+    "scoreB": 0.0
+  },
+  {
+    "season": 2024,
+    "week": 14,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-jtd",
+    "scoreA": 66.26,
+    "scoreB": 135.04
+  },
+  {
+    "season": 2024,
+    "week": 15,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-natini",
+    "scoreA": 136.94,
+    "scoreB": 101.08
+  },
+  {
+    "season": 2024,
+    "week": 15,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-goat",
+    "scoreA": 174.54,
+    "scoreB": 85.06
+  },
+  {
+    "season": 2024,
+    "week": 15,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-maleahs",
+    "scoreA": 157.36,
+    "scoreB": 100.26
+  },
+  {
+    "season": 2024,
+    "week": 15,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-westbrook",
+    "scoreA": 102.26,
+    "scoreB": 108.8
+  },
+  {
+    "season": 2024,
+    "week": 15,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 87.18,
+    "scoreB": 128.1
+  },
+  {
+    "season": 2024,
+    "week": 16,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-clifton",
+    "scoreA": 151.22,
+    "scoreB": 91.74
+  },
+  {
+    "season": 2024,
+    "week": 16,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-bonomini",
+    "scoreA": 152.42,
+    "scoreB": 179.88
+  },
+  {
+    "season": 2024,
+    "week": 16,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-goat",
+    "scoreA": 97.96,
+    "scoreB": 130.2
+  },
+  {
+    "season": 2024,
+    "week": 16,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-westbrook",
+    "scoreA": 110.04,
+    "scoreB": 109.64
+  },
+  {
+    "season": 2024,
+    "week": 16,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 123.18,
+    "scoreB": 120.16
+  },
+  {
+    "season": 2024,
+    "week": 16,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 95.68,
+    "scoreB": 99.4
+  },
+  {
+    "season": 2024,
+    "week": 17,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-bonomini",
+    "scoreA": 162.98,
+    "scoreB": 152.38
+  },
+  {
+    "season": 2024,
+    "week": 17,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-clifton",
+    "scoreA": 150.46,
+    "scoreB": 102.68
+  },
+  {
+    "season": 2024,
+    "week": 17,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-goat",
+    "scoreA": 118.98,
+    "scoreB": 137.0
+  },
+  {
+    "season": 2024,
+    "week": 17,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-maleahs",
+    "scoreA": 106.02,
+    "scoreB": 143.34
+  },
+  {
+    "season": 2024,
+    "week": 17,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 42.28,
+    "scoreB": 111.6
+  },
+  {
+    "season": 2024,
+    "week": 17,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 82.4,
+    "scoreB": 105.14
+  },
+  {
+    "season": 2025,
+    "week": 1,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-clifton",
+    "scoreA": 138.58,
+    "scoreB": 66.42
+  },
+  {
+    "season": 2025,
+    "week": 1,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-natini",
+    "scoreA": 77.94,
+    "scoreB": 113.16
+  },
+  {
+    "season": 2025,
+    "week": 1,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 115.28,
+    "scoreB": 104.82
+  },
+  {
+    "season": 2025,
+    "week": 1,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-westbrook",
+    "scoreA": 93.12,
+    "scoreB": 119.48
+  },
+  {
+    "season": 2025,
+    "week": 1,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-harrison",
+    "scoreA": 109.38,
+    "scoreB": 124.22
+  },
+  {
+    "season": 2025,
+    "week": 1,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-maleahs",
+    "scoreA": 121.86,
+    "scoreB": 102.82
+  },
+  {
+    "season": 2025,
+    "week": 2,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-natini",
+    "scoreA": 65.14,
+    "scoreB": 127.52
+  },
+  {
+    "season": 2025,
+    "week": 2,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-jtd",
+    "scoreA": 95.8,
+    "scoreB": 101.54
+  },
+  {
+    "season": 2025,
+    "week": 2,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-bonomini",
+    "scoreA": 102.6,
+    "scoreB": 128.34
+  },
+  {
+    "season": 2025,
+    "week": 2,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-harrison",
+    "scoreA": 131.12,
+    "scoreB": 111.48
+  },
+  {
+    "season": 2025,
+    "week": 2,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-joelia",
+    "scoreA": 132.78,
+    "scoreB": 111.6
+  },
+  {
+    "season": 2025,
+    "week": 2,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 143.9,
+    "scoreB": 107.1
+  },
+  {
+    "season": 2025,
+    "week": 3,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-clifton",
+    "scoreA": 95.96,
+    "scoreB": 97.6
+  },
+  {
+    "season": 2025,
+    "week": 3,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-best-martini",
+    "scoreA": 114.22,
+    "scoreB": 101.02
+  },
+  {
+    "season": 2025,
+    "week": 3,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-bonomini",
+    "scoreA": 120.34,
+    "scoreB": 113.18
+  },
+  {
+    "season": 2025,
+    "week": 3,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-westbrook",
+    "scoreA": 128.46,
+    "scoreB": 156.82
+  },
+  {
+    "season": 2025,
+    "week": 3,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-goat",
+    "scoreA": 114.5,
+    "scoreB": 103.72
+  },
+  {
+    "season": 2025,
+    "week": 3,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 137.48,
+    "scoreB": 84.02
+  },
+  {
+    "season": 2025,
+    "week": 4,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-best-martini",
+    "scoreA": 96.5,
+    "scoreB": 120.56
+  },
+  {
+    "season": 2025,
+    "week": 4,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 157.44,
+    "scoreB": 119.5
+  },
+  {
+    "season": 2025,
+    "week": 4,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-natini",
+    "scoreA": 154.2,
+    "scoreB": 92.76
+  },
+  {
+    "season": 2025,
+    "week": 4,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-goat",
+    "scoreA": 137.72,
+    "scoreB": 88.68
+  },
+  {
+    "season": 2025,
+    "week": 4,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-maleahs",
+    "scoreA": 66.68,
+    "scoreB": 136.2
+  },
+  {
+    "season": 2025,
+    "week": 4,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-harrison",
+    "scoreA": 143.06,
+    "scoreB": 149.42
+  },
+  {
+    "season": 2025,
+    "week": 5,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-clifton",
+    "scoreA": 102.52,
+    "scoreB": 86.04
+  },
+  {
+    "season": 2025,
+    "week": 5,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-jtd",
+    "scoreA": 137.88,
+    "scoreB": 105.3
+  },
+  {
+    "season": 2025,
+    "week": 5,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-natini",
+    "scoreA": 122.3,
+    "scoreB": 103.02
+  },
+  {
+    "season": 2025,
+    "week": 5,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-westbrook",
+    "scoreA": 82.98,
+    "scoreB": 154.62
+  },
+  {
+    "season": 2025,
+    "week": 5,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-joelia",
+    "scoreA": 84.18,
+    "scoreB": 145.64
+  },
+  {
+    "season": 2025,
+    "week": 5,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-harrison",
+    "scoreA": 132.14,
+    "scoreB": 89.44
+  },
+  {
+    "season": 2025,
+    "week": 6,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-westbrook",
+    "scoreA": 69.46,
+    "scoreB": 132.54
+  },
+  {
+    "season": 2025,
+    "week": 6,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-joelia",
+    "scoreA": 92.02,
+    "scoreB": 116.46
+  },
+  {
+    "season": 2025,
+    "week": 6,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-harrison",
+    "scoreA": 122.0,
+    "scoreB": 83.76
+  },
+  {
+    "season": 2025,
+    "week": 6,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-maleahs",
+    "scoreA": 71.9,
+    "scoreB": 119.58
+  },
+  {
+    "season": 2025,
+    "week": 6,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-goat",
+    "scoreA": 93.64,
+    "scoreB": 100.36
+  },
+  {
+    "season": 2025,
+    "week": 6,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 110.74,
+    "scoreB": 119.28
+  },
+  {
+    "season": 2025,
+    "week": 7,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-jtd",
+    "scoreA": 120.68,
+    "scoreB": 104.74
+  },
+  {
+    "season": 2025,
+    "week": 7,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-natini",
+    "scoreA": 86.54,
+    "scoreB": 95.3
+  },
+  {
+    "season": 2025,
+    "week": 7,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 59.38,
+    "scoreB": 109.7
+  },
+  {
+    "season": 2025,
+    "week": 7,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-best-martini",
+    "scoreA": 125.94,
+    "scoreB": 148.76
+  },
+  {
+    "season": 2025,
+    "week": 7,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-bonomini",
+    "scoreA": 142.38,
+    "scoreB": 153.78
+  },
+  {
+    "season": 2025,
+    "week": 7,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-clifton",
+    "scoreA": 141.92,
+    "scoreB": 98.86
+  },
+  {
+    "season": 2025,
+    "week": 8,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-westbrook",
+    "scoreA": 123.82,
+    "scoreB": 131.78
+  },
+  {
+    "season": 2025,
+    "week": 8,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-joelia",
+    "scoreA": 78.26,
+    "scoreB": 169.92
+  },
+  {
+    "season": 2025,
+    "week": 8,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-harrison",
+    "scoreA": 114.78,
+    "scoreB": 126.3
+  },
+  {
+    "season": 2025,
+    "week": 8,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-maleahs",
+    "scoreA": 70.46,
+    "scoreB": 68.76
+  },
+  {
+    "season": 2025,
+    "week": 8,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-goat",
+    "scoreA": 119.48,
+    "scoreB": 115.22
+  },
+  {
+    "season": 2025,
+    "week": 8,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 120.16,
+    "scoreB": 83.28
+  },
+  {
+    "season": 2025,
+    "week": 9,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 117.86,
+    "scoreB": 99.5
+  },
+  {
+    "season": 2025,
+    "week": 9,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-best-martini",
+    "scoreA": 116.54,
+    "scoreB": 131.8
+  },
+  {
+    "season": 2025,
+    "week": 9,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-bonomini",
+    "scoreA": 121.08,
+    "scoreB": 147.64
+  },
+  {
+    "season": 2025,
+    "week": 9,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-clifton",
+    "scoreA": 135.4,
+    "scoreB": 86.22
+  },
+  {
+    "season": 2025,
+    "week": 9,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-jtd",
+    "scoreA": 107.0,
+    "scoreB": 80.66
+  },
+  {
+    "season": 2025,
+    "week": 9,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-natini",
+    "scoreA": 83.28,
+    "scoreB": 111.02
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-westbrook",
+    "scoreA": 96.22,
+    "scoreB": 151.5
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-joelia",
+    "scoreA": 160.7,
+    "scoreB": 187.68
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-harrison",
+    "scoreA": 91.1,
+    "scoreB": 108.2
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-maleahs",
+    "scoreA": 71.5,
+    "scoreB": 88.46
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-goat",
+    "scoreA": 95.84,
+    "scoreB": 96.34
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 97.4,
+    "scoreB": 106.6
+  },
+  {
+    "season": 2025,
+    "week": 11,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-bonomini",
+    "scoreA": 119.44,
+    "scoreB": 121.5
+  },
+  {
+    "season": 2025,
+    "week": 11,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-clifton",
+    "scoreA": 105.02,
+    "scoreB": 119.9
+  },
+  {
+    "season": 2025,
+    "week": 11,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-jtd",
+    "scoreA": 97.94,
+    "scoreB": 130.2
+  },
+  {
+    "season": 2025,
+    "week": 11,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-natini",
+    "scoreA": 84.14,
+    "scoreB": 136.28
+  },
+  {
+    "season": 2025,
+    "week": 11,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 73.62,
+    "scoreB": 68.6
+  },
+  {
+    "season": 2025,
+    "week": 11,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-best-martini",
+    "scoreA": 102.3,
+    "scoreB": 89.82
+  },
+  {
+    "season": 2025,
+    "week": 12,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-clifton",
+    "scoreA": 105.66,
+    "scoreB": 121.98
+  },
+  {
+    "season": 2025,
+    "week": 12,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-jtd",
+    "scoreA": 127.68,
+    "scoreB": 151.76
+  },
+  {
+    "season": 2025,
+    "week": 12,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-natini",
+    "scoreA": 105.16,
+    "scoreB": 84.42
+  },
+  {
+    "season": 2025,
+    "week": 12,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 116.38,
+    "scoreB": 61.6
+  },
+  {
+    "season": 2025,
+    "week": 12,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-best-martini",
+    "scoreA": 127.32,
+    "scoreB": 134.06
+  },
+  {
+    "season": 2025,
+    "week": 12,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-bonomini",
+    "scoreA": 81.22,
+    "scoreB": 133.12
+  },
+  {
+    "season": 2025,
+    "week": 13,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-westbrook",
+    "scoreA": 84.3,
+    "scoreB": 83.18
+  },
+  {
+    "season": 2025,
+    "week": 13,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-joelia",
+    "scoreA": 101.82,
+    "scoreB": 114.16
+  },
+  {
+    "season": 2025,
+    "week": 13,
+    "teamA": "franchise-roell-alex",
+    "teamB": "franchise-harrison",
+    "scoreA": 70.5,
+    "scoreB": 85.84
+  },
+  {
+    "season": 2025,
+    "week": 13,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-maleahs",
+    "scoreA": 141.9,
+    "scoreB": 138.74
+  },
+  {
+    "season": 2025,
+    "week": 13,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-goat",
+    "scoreA": 143.42,
+    "scoreB": 92.94
+  },
+  {
+    "season": 2025,
+    "week": 13,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 98.14,
+    "scoreB": 102.22
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-natini",
+    "scoreA": 120.96,
+    "scoreB": 133.74
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 82.22,
+    "scoreB": 82.4
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-best-martini",
+    "scoreA": 83.16,
+    "scoreB": 106.44
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "teamA": "franchise-maleahs",
+    "teamB": "franchise-bonomini",
+    "scoreA": 117.6,
+    "scoreB": 145.94
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-clifton",
+    "scoreA": 118.96,
+    "scoreB": 118.16
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-jtd",
+    "scoreA": 63.4,
+    "scoreB": 61.2
+  },
+  {
+    "season": 2025,
+    "week": 15,
+    "teamA": "franchise-jtd",
+    "teamB": "franchise-natini",
+    "scoreA": 113.5,
+    "scoreB": 105.42
+  },
+  {
+    "season": 2025,
+    "week": 15,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-maleahs",
+    "scoreA": 152.26,
+    "scoreB": 131.66
+  },
+  {
+    "season": 2025,
+    "week": 15,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-goat",
+    "scoreA": 104.04,
+    "scoreB": 88.6
+  },
+  {
+    "season": 2025,
+    "week": 15,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 82.1,
+    "scoreB": 74.9
+  },
+  {
+    "season": 2025,
+    "week": 15,
+    "teamA": "franchise-clifton",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 95.4,
+    "scoreB": 57.2
+  },
+  {
+    "season": 2025,
+    "week": 16,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-jtd",
+    "scoreA": 111.0,
+    "scoreB": 130.1
+  },
+  {
+    "season": 2025,
+    "week": 16,
+    "teamA": "franchise-westbrook",
+    "teamB": "franchise-best-martini",
+    "scoreA": 133.4,
+    "scoreB": 154.66
+  },
+  {
+    "season": 2025,
+    "week": 16,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-maleahs",
+    "scoreA": 130.5,
+    "scoreB": 82.4
+  },
+  {
+    "season": 2025,
+    "week": 16,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-joelia",
+    "scoreA": 120.98,
+    "scoreB": 109.8
+  },
+  {
+    "season": 2025,
+    "week": 16,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-clifton",
+    "scoreA": 80.54,
+    "scoreB": 100.96
+  },
+  {
+    "season": 2025,
+    "week": 16,
+    "teamA": "franchise-on-the-rocks",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 103.5,
+    "scoreB": 90.4
+  },
+  {
+    "season": 2025,
+    "week": 17,
+    "teamA": "franchise-best-martini",
+    "teamB": "franchise-jtd",
+    "scoreA": 132.78,
+    "scoreB": 154.3
+  },
+  {
+    "season": 2025,
+    "week": 17,
+    "teamA": "franchise-bonomini",
+    "teamB": "franchise-westbrook",
+    "scoreA": 92.46,
+    "scoreB": 115.04
+  },
+  {
+    "season": 2025,
+    "week": 17,
+    "teamA": "franchise-natini",
+    "teamB": "franchise-maleahs",
+    "scoreA": 112.78,
+    "scoreB": 70.6
+  },
+  {
+    "season": 2025,
+    "week": 17,
+    "teamA": "franchise-harrison",
+    "teamB": "franchise-clifton",
+    "scoreA": 41.8,
+    "scoreB": 111.7
+  },
+  {
+    "season": 2025,
+    "week": 17,
+    "teamA": "franchise-joelia",
+    "teamB": "franchise-on-the-rocks",
+    "scoreA": 52.4,
+    "scoreB": 146.62
+  },
+  {
+    "season": 2025,
+    "week": 17,
+    "teamA": "franchise-goat",
+    "teamB": "franchise-roell-alex",
+    "scoreA": 59.6,
+    "scoreB": 94.7
+  }
+]

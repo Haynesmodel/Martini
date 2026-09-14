@@ -80,7 +80,21 @@ def numeric(value: Any, field: str) -> float:
     if isinstance(value, bool) or not isinstance(value, (int, float)) or value < 0: raise ValueError(f"invalid {field}")
     return float(value)
 
+def adapt_espn_api(raw: dict[str, Any]) -> dict[str, Any]:
+    """Turn ESPN's mTeam/mMatchupScore response into the reviewed import shape."""
+    if not isinstance(raw.get("members"), list) or not isinstance(raw.get("schedule"), list): return raw
+    member_names = {str(item.get("id")): item.get("displayName", "") for item in raw["members"] if isinstance(item, dict)}
+    teams = raw.get("teams", [])
+    if not isinstance(teams, list): return raw
+    return {
+        "seasonId": raw.get("seasonId"),
+        "teams": [{"id": item.get("id"), "name": item.get("name", ""), "managers": [member_names.get(str(owner), "") for owner in item.get("owners", [])]} for item in teams],
+        "matchups": [{"id": item.get("id"), "week": item.get("matchupPeriodId"), "teamA": item.get("home", {}).get("teamId"), "teamB": item.get("away", {}).get("teamId"), "scoreA": item.get("home", {}).get("totalPoints"), "scoreB": item.get("away", {}).get("totalPoints")} for item in raw["schedule"] if item.get("home", {}).get("teamId") and item.get("away", {}).get("teamId")],
+        "standings": [{"id": item.get("id"), "wins": item.get("record", {}).get("overall", {}).get("wins"), "losses": item.get("record", {}).get("overall", {}).get("losses"), "ties": item.get("record", {}).get("overall", {}).get("ties"), "finish": item.get("rankCalculatedFinal"), "pointsFor": item.get("points")} for item in teams],
+    }
+
 def normalize(raw: dict[str, Any], mapping: dict[str, Any]) -> dict[str, Any]:
+    raw = adapt_espn_api(raw)
     season = int(raw.get("seasonId", raw.get("season", 0)))
     if season > 2025: raise ValueError(f"season {season} is not completed history")
     configured = mapping.get("seasons", {}).get(str(season))
@@ -115,7 +129,7 @@ def normalize(raw: dict[str, Any], mapping: dict[str, Any]) -> dict[str, Any]:
         week = int(matchup.get("week", 0)); pair = (week, season, *sorted((team_a, team_b)))
         if pair in seen_pairs: raise ValueError(f"duplicate matchup pair at row {index}")
         seen_pairs.add(pair)
-        score_a = numeric(matchup.get("scoreA", matchup.get("homeScore")), "scoreA"); score_b = numeric(matchup.get("scoreB", matchup.get("awayScore")), "scoreB")
+        score_a = round(numeric(matchup.get("scoreA", matchup.get("homeScore")), "scoreA"), 2); score_b = round(numeric(matchup.get("scoreB", matchup.get("awayScore")), "scoreB"), 2)
         candidate_games.append({"season": season, "week": week, "teamA": team_a, "teamB": team_b, "scoreA": score_a, "scoreB": score_b})
     candidate_summaries = []
     summary_sources: set[str] = set()
@@ -127,7 +141,7 @@ def normalize(raw: dict[str, Any], mapping: dict[str, Any]) -> dict[str, Any]:
         if source_id in summary_sources: raise ValueError(f"duplicate standings source team {source_id}")
         if owner in summary_franchises: raise ValueError(f"duplicate franchise-season standings row for {season}: {owner}")
         summary_sources.add(source_id); summary_franchises.add(owner)
-        candidate_summaries.append({"season": season, "owner": owner, "wins": int(row.get("wins", 0)), "losses": int(row.get("losses", 0)), "ties": int(row.get("ties", 0)), "finish": int(row.get("finish", 0)), "points_for": numeric(row.get("points_for", row.get("pointsFor", 0)), "points_for")})
+        candidate_summaries.append({"season": season, "owner": owner, "wins": int(row.get("wins", 0)), "losses": int(row.get("losses", 0)), "ties": int(row.get("ties", 0)), "finish": int(row.get("finish", 0)), "points_for": round(numeric(row.get("points_for", row.get("pointsFor", 0)), "points_for"), 2)})
     if summary_sources != set(resolved) or summary_franchises != used_franchises:
         missing = sorted(set(resolved) - summary_sources)
         raise ValueError(f"standings are missing mapped source teams: {', '.join(missing)}")
